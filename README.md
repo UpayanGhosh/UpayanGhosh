@@ -70,7 +70,7 @@
 
 <img align="right" height="200" src="assests/68747470733a2f2f6d656469612e74656e6f722e636f6d2f666c666c433647467a4f38414141414d2f73756c74616e2d616c7265666165692d70726f6772616d6d65722e676966.gif" />
 
-<h6 align="left">🔭 I’m currently working on my career<br><br>🌱 I’m currently learning everything 🤣<br><br>👯 I’m looking to collaborate with other content creators<br><br>💬 Ask me about anything<br><br>📫 How to reach me upayan1231@gmail.com <br><br>⚡ Fun fact - Currently I am a student who likes to watch anime a lot :)</h6>
+<h6 align="left">🔭 I’m currently working on my career<br><br>🌱 I’m currently learning everything 🤣<br><br>👯 I’m looking to collaborate with other content creators<br><br>💬 Ask me about anything<br><br>📫 How to reach me upayan1231@gmail.com <br><br>⚡ Fun fact - Currently I am a student who likes to watch anime and play games a lot :)</h6>
 <br clear="both">
 
 <!-- Contribution Graph -->
@@ -127,7 +127,6 @@
  <!-- 
  ![UG_Shorty github-stats](https://stats.hyochan.dev/api/github-stats-advanced?login=UG_Shorty)
 -->
-
 
 </div>
 

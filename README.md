@@ -123,7 +123,7 @@
   ![UG_Shorty github-trophies](https://stats.hyochan.dev/api/github-trophies?login=UG_Shorty)
   -->
    
-  <p align="center"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=UG_Shorty&ryo-ma&theme=radical&row=1&column=6" alt="UG_Shorty" /></a> </p>
+  <p align="center"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=UpayanGhosh&ryo-ma&theme=radical&row=1&column=6" alt="UG_Shorty" /></a> </p>
  <!-- 
  ![UG_Shorty github-stats](https://stats.hyochan.dev/api/github-stats-advanced?login=UG_Shorty)
 -->

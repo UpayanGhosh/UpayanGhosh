@@ -4,13 +4,13 @@
 
 <h3 align="center"> ⚠️ Multiple works in progress! ⚠️</h3>
 
-<!--
-<h4 align="center">Due to the creating of multiple projects, common inactivity may occur.<br>Please pardon any slow uploads or lack of updates.</h4>
--->
+
+<h4 align="center">Too much work to do</h4>
+
 
 ###
 
-<img width=100% src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&duration=2000&pause=2000&color=00BFBF&center=true&vCenter=true&width=550&height=80&lines=Hello%F0%9F%91%8B;I+am+Souvik+Banerjee+%F0%9F%99%8F;An+Upcoming+%F0%9F%9A%80+Developer+%F0%9F%91%A8%E2%80%8D%F0%9F%92%BB;Works+On+AI+%26+ML+%F0%9F%A4%96;Frontend+%26+Backend+Development+%F0%9F%96%A5%EF%B8%8F;DevOps+%F0%9F%96%A7+%26+Cloud+Computing+%E2%98%81%EF%B8%8F;Database+Management+%F0%9F%91%A8%E2%80%8D%F0%9F%92%BB;+I+Love+To+Watch+Anime+%F0%9F%98%86;Fun+fact+%3A+The+One+Piece+is+Real+%F0%9F%94%A5" align="middle" alt="Hey, I'm Souvik Banerjee Welcome to my Profile👋 animated typed out" width="100%"/>
+<img width=100% src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&center=true&vCenter=true&width=435&lines=Hello+Guys!!;I'm+Upayan+Ghosh.;Welcome+to+my+profile.;Feel+free+to+explore+here." align="middle" alt="Hey, I'm Upayan Ghosh Welcome to my Profile👋 animated typed out" width="100%"/>
 
 <!--
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=33&duration=2800&pause=2000&color=00bfbf&center=true&vCenter=true&width=1000&lines=Hey+I'm+Souvik+Banerjee+Welcome+to+my+Profile👋" align="middle" alt="Hey, I'm Souvik Banerjee Welcome to my Profile👋 animated typed out" width="100%"/>
@@ -37,7 +37,7 @@
 
 -->
 <div align="center">
-  <img height="550" src="assests/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f6d61782f313336302f302a37513379765349765f7430696f4a2d5a2e676966.gif"  />
+  <img height="550" src="assests/Keanu Rives.gif"  />
 </div>
 
 <!-- Introduction -->

@@ -57,7 +57,7 @@
 -->
 
 <div align="center">
-  <img height="300" src="assests/68747470733a2f2f692e696d67666c69702e636f6d2f3635716e676e2e676966.gif"  />
+  <img height="300" src="assests/Meme.gif"  />
 </div>
 <br clear="both">
 <p align="center">
@@ -250,7 +250,7 @@ Updated Skills & Tools:(Can be aded in future)
 -->
 
 <div align="center">
-  <img height="550" weidth="550" src="assests/golden-boy-fake-keyboard-programing-coding-paper-book.gif"  />
+  <img height="550" weidth="550" src="assests/Game.gif"  />
 </div>
 
 <!-- Snake Animation (Not Working) -->

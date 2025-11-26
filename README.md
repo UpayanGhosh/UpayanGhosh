@@ -97,26 +97,6 @@
 
 ---
 
-## 📊 GitHub Stats
-
-<div align="center">
-  <img
-    src="https://github-readme-stats.vercel.app/api?username=UpayanGhosh&show_icons=true&theme=dracula"
-    height="150"
-    alt="GitHub stats graph"
-  />
-  <img
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=UpayanGhosh&layout=compact&theme=dracula"
-    height="150"
-    alt="Top languages graph"
-  />
-  <img
-    src="https://streak-stats.demolab.com?user=UpayanGhosh&theme=dracula"
-    height="150"
-    alt="GitHub streak graph"
-  />
-</div>
-
 ---
 
 ## 🧩 Fun Stuff
@@ -140,6 +120,3 @@
 
 <br/>
 
-<div align="center">
-  <img src="https://profile-counter.glitch.me/UpayanGhosh/count.svg" alt="Profile views counter" />
-</div>

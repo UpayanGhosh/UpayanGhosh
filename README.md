@@ -18,15 +18,9 @@
 
 ###
 
-<img src="https://raw.githubusercontent.com/UpayanGhosh/UpayanGhosh/output/snake.svg" alt="Snake animation" />
-
+<img src="https://raw.githubusercontent.com/UpayanGhosh/UpayanGhosh/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
 ###
 
-<div align="center">
-  <img src="https://profile-counter.glitch.me/UpayanGhosh/count.svg?"  />
-</div>
-
-###
 
 <div align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo"  />

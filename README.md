@@ -171,12 +171,6 @@ npm install -g claude-jarvis
 ## 🛠 Tech Stack
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/UpayanGhosh/UpayanGhosh/main/.github/assets/card-stack.svg" width="100%" alt="Tech Stack" />
-</div>
-
-<br/>
-
-<div align="center">
 
 **AI / Systems** · *evenings &amp; weekends*
 

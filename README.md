@@ -106,10 +106,6 @@ I build systems that *remember*, *route intelligently*, and *explain themselves*
   <img src="https://streak-stats.demolab.com?user=UpayanGhosh&theme=tokyonight-duo&hide_border=true" />
 </div>
 
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=UpayanGhosh&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&column=7" width="100%" />
-</div>
-
 ---
 
 ## 📈 Activity & Contributions

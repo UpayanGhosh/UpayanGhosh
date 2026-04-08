@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,30:1a1040,70:3d1a78,100:6E40C9&height=200&section=header&text=upayan%40synapse&fontSize=44&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=AI%20Systems%20Engineer%20%7C%20OSS%20Builder%20%7C%20Building%20in%20Public&descSize=16&descAlignY=56&descAlign=50&descColor=c9b8ff" width="100%" />
+  <img src="https://raw.githubusercontent.com/UpayanGhosh/UpayanGhosh/main/.github/assets/hero.svg" width="100%" alt="upayan@synapse — AI Systems Engineer" />
 </div>
 
 <div align="center">

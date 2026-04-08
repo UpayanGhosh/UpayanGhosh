@@ -1,0 +1,221 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-label="Let's Talk — Contact">
+  <title>Let's Talk — get in touch with UpayanGhosh</title>
+  <defs>
+    <linearGradient id="ctBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="50%" stop-color="#1a1040"/>
+      <stop offset="100%" stop-color="#2d1458"/>
+    </linearGradient>
+    <linearGradient id="ctAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#9F6BF5"/>
+      <stop offset="100%" stop-color="#c9b8ff"/>
+    </linearGradient>
+    <linearGradient id="ctGold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFD700"/>
+      <stop offset="100%" stop-color="#FFE066"/>
+    </linearGradient>
+    <linearGradient id="liBtn" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0A66C2"/>
+      <stop offset="100%" stop-color="#084B93"/>
+    </linearGradient>
+    <linearGradient id="gmailBtn" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#EA4335"/>
+      <stop offset="100%" stop-color="#B23121"/>
+    </linearGradient>
+    <linearGradient id="xBtn" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2a2a2a"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </linearGradient>
+    <filter id="ctShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000" flood-opacity="0.3"/>
+    </filter>
+    <filter id="btnShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#000" flood-opacity="0.5"/>
+    </filter>
+    <filter id="ctGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <style><![CDATA[
+    .card-title {
+      font-family: 'Segoe UI', 'Inter', sans-serif;
+      font-size: 22px;
+      font-weight: 700;
+      fill: #c9b8ff;
+      letter-spacing: 1px;
+    }
+    .hero-hand {
+      font-family: 'Caveat', 'Kalam', 'Bradley Hand', 'Segoe Script', cursive;
+      font-size: 60px;
+      font-weight: 700;
+      fill: url(#ctGold);
+    }
+    .hero-sub {
+      font-family: 'Caveat', 'Kalam', 'Segoe Script', cursive;
+      font-size: 22px;
+      font-weight: 600;
+      fill: #c9b8ff;
+    }
+    .btn-text {
+      font-family: 'Segoe UI', 'Inter', sans-serif;
+      font-size: 16px;
+      font-weight: 700;
+      fill: #ffffff;
+      letter-spacing: 0.5px;
+    }
+    .btn-sub {
+      font-family: 'Segoe UI', 'Inter', sans-serif;
+      font-size: 11px;
+      font-weight: 500;
+      fill: rgba(255,255,255,0.8);
+      letter-spacing: 0.5px;
+    }
+    .note {
+      font-family: 'Caveat', 'Kalam', 'Segoe Script', cursive;
+      font-size: 22px;
+      font-weight: 700;
+      fill: #FFE066;
+    }
+    .open-to {
+      font-family: 'Segoe UI', 'Inter', sans-serif;
+      font-size: 13px;
+      font-weight: 500;
+      fill: #c9b8ff;
+    }
+    .open-label {
+      font-family: 'Caveat', 'Kalam', cursive;
+      font-size: 24px;
+      font-weight: 700;
+      fill: #FFE066;
+    }
+
+    @keyframes pulse-btn {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.92; }
+    }
+    .btn { animation: pulse-btn 3s ease-in-out infinite; }
+    .btn-li { animation-delay: 0s; }
+    .btn-gm { animation-delay: 0.5s; }
+    .btn-x  { animation-delay: 1s; }
+
+    @keyframes shimmer {
+      0%, 100% { opacity: 1; filter: brightness(1); }
+      50% { opacity: 0.9; filter: brightness(1.2); }
+    }
+    .hero-hand { animation: shimmer 4s ease-in-out infinite; }
+
+    @keyframes float-p {
+      0%, 100% { transform: translate(0,0); opacity: 0.3; }
+      50% { transform: translate(4px,-8px); opacity: 0.9; }
+    }
+    .p { animation: float-p 4s ease-in-out infinite; fill: #9F6BF5; }
+
+    @keyframes draw-arrow {
+      from { stroke-dashoffset: 80; }
+      to { stroke-dashoffset: 0; }
+    }
+    .arrow {
+      fill: none;
+      stroke: #FFE066;
+      stroke-width: 3;
+      stroke-linecap: round;
+      stroke-dasharray: 80;
+      stroke-dashoffset: 0;
+      animation: draw-arrow 2.5s ease-out infinite alternate;
+    }
+
+    @keyframes sparkle {
+      0%, 100% { opacity: 0; transform: scale(0.5); }
+      50% { opacity: 1; transform: scale(1.2); }
+    }
+    .sparkle { fill: #FFFACD; animation: sparkle 2s ease-in-out infinite; transform-origin: center; }
+  ]]></style>
+
+  <!-- Card background -->
+  <rect x="4" y="4" width="1192" height="312" rx="20" ry="20" fill="url(#ctBg)" filter="url(#ctShadow)"/>
+  <rect x="4" y="4" width="1192" height="312" rx="20" ry="20" fill="none" stroke="#9F6BF5" stroke-width="1.5" opacity="0.4"/>
+
+  <!-- Left accent stripe -->
+  <rect x="4" y="4" width="5" height="312" rx="2" fill="url(#ctAccent)"/>
+
+  <!-- Card header -->
+  <text class="card-title" x="40" y="45">LET'S TALK</text>
+  <text class="note" x="200" y="48" transform="rotate(-3, 200, 48)">← don't be shy 👋</text>
+
+  <!-- Divider -->
+  <line x1="40" y1="60" x2="1160" y2="60" stroke="#9F6BF5" stroke-width="1" opacity="0.2"/>
+
+  <!-- Floating particles -->
+  <circle class="p" cx="1100" cy="30" r="2"/>
+  <circle class="p" cx="1150" cy="60" r="1.5" style="animation-delay: 0.5s"/>
+  <circle class="p" cx="60" cy="290" r="2" style="animation-delay: 1s"/>
+  <circle class="p" cx="1140" cy="280" r="1.8" style="animation-delay: 1.3s"/>
+  <circle class="p" cx="100" cy="60" r="1.5" style="animation-delay: 1.8s"/>
+
+  <!-- Sparkles -->
+  <circle class="sparkle" cx="500" cy="100" r="3"/>
+  <circle class="sparkle" cx="760" cy="105" r="2.5" style="animation-delay: 0.7s"/>
+  <circle class="sparkle" cx="620" cy="75" r="2" style="animation-delay: 1.4s"/>
+  <circle class="sparkle" cx="680" cy="135" r="2.5" style="animation-delay: 0.3s"/>
+
+  <!-- Big handwritten "want to chat?" -->
+  <text class="hero-hand" x="600" y="135" text-anchor="middle">want to chat?</text>
+  <text class="hero-sub" x="600" y="170" text-anchor="middle">slide into any of these — I actually reply ✨</text>
+
+  <!-- ============== 3 CONTACT BUTTONS ============== -->
+
+  <!-- LinkedIn button -->
+  <g class="btn btn-li" transform="translate(180, 200)">
+    <rect x="0" y="0" width="260" height="72" rx="12" fill="url(#liBtn)" filter="url(#btnShadow)"/>
+    <!-- LinkedIn icon -->
+    <g transform="translate(20, 20)">
+      <rect x="0" y="0" width="32" height="32" rx="4" fill="#ffffff"/>
+      <rect x="5" y="12" width="4" height="15" fill="#0A66C2"/>
+      <circle cx="7" cy="7" r="2.5" fill="#0A66C2"/>
+      <path d="M 13 12 L 13 27 L 17 27 L 17 19 Q 17 16 20 16 Q 23 16 23 19 L 23 27 L 27 27 L 27 18 Q 27 12 22 12 Q 18 12 17 14 L 17 12 Z" fill="#0A66C2"/>
+    </g>
+    <text class="btn-text" x="68" y="30">LinkedIn DM</text>
+    <text class="btn-sub" x="68" y="52">linkedin.com/in/upayan-ghosh-shorty</text>
+  </g>
+
+  <!-- Gmail button -->
+  <g class="btn btn-gm" transform="translate(470, 200)">
+    <rect x="0" y="0" width="260" height="72" rx="12" fill="url(#gmailBtn)" filter="url(#btnShadow)"/>
+    <!-- Gmail icon (envelope) -->
+    <g transform="translate(20, 22)">
+      <rect x="0" y="0" width="32" height="24" rx="2" fill="#ffffff"/>
+      <path d="M 0 2 L 16 14 L 32 2" fill="none" stroke="#EA4335" stroke-width="2"/>
+      <path d="M 0 2 L 16 14 L 32 2 L 32 22 L 0 22 Z" fill="none" stroke="#EA4335" stroke-width="1.5"/>
+    </g>
+    <text class="btn-text" x="68" y="30">Email Me</text>
+    <text class="btn-sub" x="68" y="52">upayan1231@gmail.com</text>
+  </g>
+
+  <!-- X/Twitter button -->
+  <g class="btn btn-x" transform="translate(760, 200)">
+    <rect x="0" y="0" width="260" height="72" rx="12" fill="url(#xBtn)" filter="url(#btnShadow)"/>
+    <!-- X icon -->
+    <g transform="translate(20, 20)">
+      <rect x="0" y="0" width="32" height="32" rx="4" fill="#ffffff"/>
+      <path d="M 7 7 L 25 25 M 25 7 L 7 25" stroke="#000000" stroke-width="3" stroke-linecap="round"/>
+    </g>
+    <text class="btn-text" x="68" y="30">Follow on X</text>
+    <text class="btn-sub" x="68" y="52">@UpayanGhosh0_0</text>
+  </g>
+
+  <!-- Arrow from "want to chat" to buttons -->
+  <path class="arrow" d="M 600 180 Q 600 200 600 195"/>
+
+  <!-- "OPEN TO:" side label -->
+  <g transform="translate(1050, 200)">
+    <text class="open-label" x="0" y="0" transform="rotate(-3, 0, 0)">open to ↓</text>
+    <text class="open-to" x="0" y="25" style="font-size: 12px;">• Freelance AI projects</text>
+    <text class="open-to" x="0" y="42" style="font-size: 12px;">• RAG pipelines &amp; chatbots</text>
+    <text class="open-to" x="0" y="59" style="font-size: 12px;">• Multi-agent collaborations</text>
+  </g>
+
+  <!-- Bottom "friendly" note -->
+  <text class="hero-sub" x="600" y="300" text-anchor="middle" style="font-size: 18px; opacity: 0.8">building in public · always up for coffee chats ☕</text>
+</svg>

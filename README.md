@@ -48,10 +48,7 @@ I build systems that *remember*, *route intelligently*, and *explain themselves*
   <table>
     <tr>
       <td width="49%" valign="top" align="center">
-        <a href="https://github.com/UpayanGhosh/Synapse-OSS">
-          <img src="https://img.shields.io/badge/-%F0%9F%A7%A0%20Synapse--OSS-6E40C9?style=for-the-badge&logoColor=white" width="100%" />
-        </a>
-        <br/><br/>
+        <h3><a href="https://github.com/UpayanGhosh/Synapse-OSS">🧠 Synapse-OSS</a></h3>
         <img src="https://img.shields.io/github/stars/UpayanGhosh/Synapse-OSS?style=flat-square&color=6E40C9&logo=github&logoColor=white" />
         <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
         <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
@@ -67,10 +64,7 @@ I build systems that *remember*, *route intelligently*, and *explain themselves*
       </td>
       <td width="2%"></td>
       <td width="49%" valign="top" align="center">
-        <a href="https://github.com/UpayanGhosh/tldr-skill">
-          <img src="https://img.shields.io/badge/-%F0%9F%93%96%20tldr--skill-3FB950?style=for-the-badge&logoColor=white" width="100%" />
-        </a>
-        <br/><br/>
+        <h3><a href="https://github.com/UpayanGhosh/tldr-skill">📖 tldr-skill</a></h3>
         <img src="https://img.shields.io/github/stars/UpayanGhosh/tldr-skill?style=flat-square&color=3FB950&logo=github&logoColor=white" />
         <img src="https://img.shields.io/badge/Claude%20Code-CC785C?style=flat-square&logo=anthropic&logoColor=white" />
         <img src="https://img.shields.io/badge/D3.js-F9A03C?style=flat-square&logo=d3.js&logoColor=white" />
@@ -90,10 +84,7 @@ I build systems that *remember*, *route intelligently*, and *explain themselves*
 <br/>
 
 <div align="center">
-  <a href="https://github.com/UpayanGhosh/claude-jarvis">
-    <img src="https://img.shields.io/badge/-%E2%9A%A1%20claude--jarvis%20%E2%80%94%20The%20only%20Claude%20Code%20skill%20you%20need-F1E05A?style=for-the-badge&logoColor=black" width="75%" />
-  </a>
-  <br/><br/>
+  <h3><a href="https://github.com/UpayanGhosh/claude-jarvis">⚡ claude-jarvis</a></h3>
   <p>Universal intent router — reads what you typed, picks the best skill from GSD, Superpowers, and gstack <em>automatically</em>. No more remembering commands.</p>
   <p>
     <img src="https://img.shields.io/npm/v/claude-jarvis?style=flat-square&color=CB3837&logo=npm&logoColor=white" />

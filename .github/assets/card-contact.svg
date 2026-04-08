@@ -142,7 +142,7 @@
 
   <!-- Card header -->
   <text class="card-title" x="40" y="45">LET'S TALK</text>
-  <text class="note" x="200" y="48" transform="rotate(-3, 200, 48)">← don't be shy 👋</text>
+  <text style="font-family: 'Segoe UI', sans-serif; font-size: 13px; fill: #8a7fb0; letter-spacing: 1px; font-weight: 500;" x="40" y="68">GET IN TOUCH · ALWAYS OPEN FOR GOOD CONVERSATIONS</text>
 
   <!-- Divider -->
   <line x1="40" y1="60" x2="1160" y2="60" stroke="#9F6BF5" stroke-width="1" opacity="0.2"/>
@@ -160,9 +160,9 @@
   <circle class="sparkle" cx="620" cy="75" r="2" style="animation-delay: 1.4s"/>
   <circle class="sparkle" cx="680" cy="135" r="2.5" style="animation-delay: 0.3s"/>
 
-  <!-- Big handwritten "want to chat?" -->
-  <text class="hero-hand" x="600" y="135" text-anchor="middle">want to chat?</text>
-  <text class="hero-sub" x="600" y="170" text-anchor="middle">slide into any of these — I actually reply ✨</text>
+  <!-- Main heading -->
+  <text style="font-family: 'Segoe UI', 'SF Pro Display', 'Inter', sans-serif; font-size: 42px; font-weight: 800; fill: #ffffff; letter-spacing: -1px;" x="600" y="135" text-anchor="middle">Let's Build Something</text>
+  <text class="hero-sub" x="600" y="170" text-anchor="middle" style="font-family: 'Segoe UI', sans-serif; font-size: 15px; fill: #c9b8ff;">Reach out through any of these channels — I actually reply.</text>
 
   <!-- ============== 3 CONTACT BUTTONS ============== -->
 
@@ -208,14 +208,16 @@
   <!-- Arrow from "want to chat" to buttons -->
   <path class="arrow" d="M 600 180 Q 600 200 600 195"/>
 
-  <!-- "OPEN TO:" side label -->
-  <g transform="translate(1050, 200)">
-    <text class="open-label" x="0" y="0" transform="rotate(-3, 0, 0)">open to ↓</text>
-    <text class="open-to" x="0" y="25" style="font-size: 12px;">• Freelance AI projects</text>
-    <text class="open-to" x="0" y="42" style="font-size: 12px;">• RAG pipelines &amp; chatbots</text>
-    <text class="open-to" x="0" y="59" style="font-size: 12px;">• Multi-agent collaborations</text>
+  <!-- "OPEN TO" side label -->
+  <g transform="translate(1040, 200)">
+    <text style="font-family: 'Segoe UI', sans-serif; font-size: 11px; fill: #9F6BF5; letter-spacing: 1.5px; font-weight: 700;" x="0" y="0">OPEN TO</text>
+    <line x1="0" y1="10" x2="130" y2="10" stroke="#9F6BF5" stroke-width="1" opacity="0.4"/>
+    <text class="open-to" x="0" y="28" style="font-size: 12px;">Freelance AI projects</text>
+    <text class="open-to" x="0" y="45" style="font-size: 12px;">RAG pipelines &amp; chatbots</text>
+    <text class="open-to" x="0" y="62" style="font-size: 12px;">Multi-agent collaborations</text>
   </g>
 
-  <!-- Bottom "friendly" note -->
-  <text class="hero-sub" x="600" y="300" text-anchor="middle" style="font-size: 18px; opacity: 0.8">building in public · always up for coffee chats ☕</text>
+  <!-- Bottom tagline -->
+  <line x1="40" y1="290" x2="1160" y2="290" stroke="#9F6BF5" stroke-width="1" opacity="0.2"/>
+  <text style="font-family: 'Segoe UI', sans-serif; font-size: 12px; fill: #8a7fb0; letter-spacing: 1px; font-weight: 500;" x="600" y="308" text-anchor="middle">BUILDING IN PUBLIC · RESPONSIVE WITHIN 24H</text>
 </svg>

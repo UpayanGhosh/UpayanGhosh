@@ -3,7 +3,7 @@
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=15&pause=800&color=9F6BF5&center=true&vCenter=true&random=false&width=580&lines=upayan%40synapse%3A~%24+whoami;%3E+AI+engineer+building+systems+that+remember;upayan%40synapse%3A~%24+cat+mission.txt;%3E+AI+that+adapts+to+you+%E2%80%94+not+the+other+way+around;upayan%40synapse%3A~%24+git+log+--oneline+--all" alt="Terminal Typing" />
+  <img src="https://readme-typing-svg.demolab.com?font=Kalam&weight=700&size=28&pause=1200&color=9F6BF5&center=true&vCenter=true&multiline=false&random=false&width=700&height=55&lines=hey+there+%F0%9F%91%8B+welcome+to+my+corner+of+GitHub;I+build+AI+that+remembers+you+%E2%9C%A8;currently+vibing+with+LanceDB+%26+Claude+Code;feel+free+to+poke+around+%F0%9F%92%9C" alt="Handwritten greeting" />
 </div>
 
 <br/>

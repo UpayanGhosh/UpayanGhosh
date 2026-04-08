@@ -115,9 +115,9 @@
     <rect x="0" y="0" width="300" height="120" rx="12" fill="rgba(159,107,245,0.08)" stroke="#6E40C9" stroke-width="1" stroke-dasharray="4 4"/>
 
     <text class="label" x="15" y="25">CURRENTLY</text>
-    <text class="value" x="15" y="48" style="font-size: 13px;">☕ Vibing with LanceDB &amp; Claude Code</text>
-    <text class="value" x="15" y="68" style="font-size: 13px;">📦 Shipping claude-jarvis updates</text>
-    <text class="value" x="15" y="88" style="font-size: 13px;">🎯 3 active OSS projects</text>
-    <text class="value" x="15" y="108" style="font-size: 13px;">🧠 Building AI that remembers</text>
+    <text class="value" x="15" y="48" style="font-size: 13px;">▸ Working with LanceDB &amp; Claude Code</text>
+    <text class="value" x="15" y="68" style="font-size: 13px;">▸ Shipping claude-jarvis updates</text>
+    <text class="value" x="15" y="88" style="font-size: 13px;">▸ 3 active OSS projects</text>
+    <text class="value" x="15" y="108" style="font-size: 13px;">▸ Building AI that remembers</text>
   </g>
 </svg>

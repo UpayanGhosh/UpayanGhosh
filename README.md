@@ -3,7 +3,7 @@
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Caveat&weight=700&size=34&pause=1200&color=FFE066&center=true&vCenter=true&multiline=false&random=false&width=800&height=65&lines=hey+there+%F0%9F%91%8B+welcome+to+my+corner+of+GitHub;I+build+AI+that+remembers+you+%E2%9C%A8;currently+vibing+with+LanceDB+%26+Claude+Code;feel+free+to+poke+around+%F0%9F%92%9C" alt="Handwritten greeting" />
+  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=20&pause=1500&color=9F6BF5&center=true&vCenter=true&multiline=false&random=false&width=800&height=45&lines=Building+AI+systems+that+remember%2C+route%2C+and+explain+themselves;Application+Dev+Analyst+%40+Accenture+%E2%80%94+OSS+builder+at+night;Multi-agent+systems+%7C+RAG+%7C+hybrid+memory+%7C+privacy-first;Currently+shipping+Synapse-OSS%2C+tldr-skill%2C+and+claude-jarvis" alt="Professional tagline" />
 </div>
 
 <br/>
@@ -44,38 +44,73 @@
 
 ## ⚡ Featured Projects
 
-<div align="center">
-  <table>
-    <tr>
-      <td width="50%">
-        <a href="https://github.com/UpayanGhosh/Synapse-OSS">
-          <img src="https://raw.githubusercontent.com/UpayanGhosh/UpayanGhosh/main/.github/assets/card-synapse.svg" width="100%" alt="Synapse-OSS" />
-        </a>
-      </td>
-      <td width="50%">
-        <a href="https://github.com/UpayanGhosh/tldr-skill">
-          <img src="https://raw.githubusercontent.com/UpayanGhosh/UpayanGhosh/main/.github/assets/card-tldr.svg" width="100%" alt="tldr-skill" />
-        </a>
-      </td>
-    </tr>
-  </table>
-</div>
+### Synapse-OSS
 
-<div align="center">
-  <a href="https://github.com/UpayanGhosh/claude-jarvis">
-    <img src="https://raw.githubusercontent.com/UpayanGhosh/UpayanGhosh/main/.github/assets/card-jarvis.svg" width="100%" alt="claude-jarvis" />
+<a href="https://github.com/UpayanGhosh/Synapse-OSS">
+  <img src="https://raw.githubusercontent.com/UpayanGhosh/UpayanGhosh/main/.github/assets/card-synapse.svg" width="100%" alt="Synapse-OSS — Self-hosted AI with hybrid memory" />
+</a>
+
+<p align="center">
+  <a href="https://github.com/UpayanGhosh/Synapse-OSS">
+    <img src="https://img.shields.io/badge/View%20on%20GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="View on GitHub" />
   </a>
-</div>
+  &nbsp;
+  <a href="https://github.com/UpayanGhosh/Synapse-OSS/stargazers">
+    <img src="https://img.shields.io/github/stars/UpayanGhosh/Synapse-OSS?style=for-the-badge&color=6E40C9&logo=github&logoColor=white&label=Stars" alt="Stars" />
+  </a>
+  &nbsp;
+  <a href="https://github.com/UpayanGhosh/Synapse-OSS/issues">
+    <img src="https://img.shields.io/github/issues/UpayanGhosh/Synapse-OSS?style=for-the-badge&color=6E40C9&label=Issues" alt="Issues" />
+  </a>
+</p>
 
-<div align="center">
-  <img src="https://img.shields.io/github/stars/UpayanGhosh/Synapse-OSS?style=flat-square&color=6E40C9&logo=github&logoColor=white&label=Synapse-OSS" />
+### tldr-skill
+
+<a href="https://github.com/UpayanGhosh/tldr-skill">
+  <img src="https://raw.githubusercontent.com/UpayanGhosh/UpayanGhosh/main/.github/assets/card-tldr.svg" width="100%" alt="tldr-skill — Any codebase, explained interactively" />
+</a>
+
+<p align="center">
+  <a href="https://github.com/UpayanGhosh/tldr-skill">
+    <img src="https://img.shields.io/badge/View%20on%20GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="View on GitHub" />
+  </a>
   &nbsp;
-  <img src="https://img.shields.io/github/stars/UpayanGhosh/tldr-skill?style=flat-square&color=3FB950&logo=github&logoColor=white&label=tldr-skill" />
+  <a href="https://github.com/UpayanGhosh/tldr-skill/stargazers">
+    <img src="https://img.shields.io/github/stars/UpayanGhosh/tldr-skill?style=for-the-badge&color=3FB950&logo=github&logoColor=white&label=Stars" alt="Stars" />
+  </a>
   &nbsp;
-  <img src="https://img.shields.io/npm/v/claude-jarvis?style=flat-square&color=CB3837&logo=npm&logoColor=white&label=claude-jarvis" />
+  <a href="https://github.com/UpayanGhosh/tldr-skill/issues">
+    <img src="https://img.shields.io/github/issues/UpayanGhosh/tldr-skill?style=for-the-badge&color=3FB950&label=Issues" alt="Issues" />
+  </a>
+</p>
+
+### claude-jarvis
+
+<a href="https://github.com/UpayanGhosh/claude-jarvis">
+  <img src="https://raw.githubusercontent.com/UpayanGhosh/UpayanGhosh/main/.github/assets/card-jarvis.svg" width="100%" alt="claude-jarvis — Universal intent router for Claude Code" />
+</a>
+
+<p align="center">
+  <a href="https://github.com/UpayanGhosh/claude-jarvis">
+    <img src="https://img.shields.io/badge/View%20on%20GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="View on GitHub" />
+  </a>
   &nbsp;
-  <img src="https://img.shields.io/npm/dm/claude-jarvis?style=flat-square&color=CB3837&logo=npm&logoColor=white&label=installs%2Fmo" />
-</div>
+  <a href="https://www.npmjs.com/package/claude-jarvis">
+    <img src="https://img.shields.io/badge/View%20on%20npm-CB3837?style=for-the-badge&logo=npm&logoColor=white" alt="View on npm" />
+  </a>
+  &nbsp;
+  <a href="https://www.npmjs.com/package/claude-jarvis">
+    <img src="https://img.shields.io/npm/v/claude-jarvis?style=for-the-badge&color=CB3837&logo=npm&logoColor=white&label=Version" alt="npm Version" />
+  </a>
+  &nbsp;
+  <a href="https://www.npmjs.com/package/claude-jarvis">
+    <img src="https://img.shields.io/npm/dm/claude-jarvis?style=for-the-badge&color=CB3837&logo=npm&logoColor=white&label=Downloads" alt="npm Downloads" />
+  </a>
+</p>
+
+```bash
+npm install -g claude-jarvis
+```
 
 ---
 

@@ -1,0 +1,222 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="Upayan Ghosh">
+  <title>upayan@synapse — AI Systems Engineer</title>
+  <defs>
+    <!-- Animated gradient background -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117">
+        <animate attributeName="stop-color" values="#0d1117;#1a1040;#0d1117" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#1a1040">
+        <animate attributeName="stop-color" values="#1a1040;#3d1a78;#1a1040" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#6E40C9">
+        <animate attributeName="stop-color" values="#6E40C9;#9F6BF5;#6E40C9" dur="8s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <!-- Gradient for title text -->
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="50%" stop-color="#c9b8ff"/>
+      <stop offset="100%" stop-color="#9F6BF5"/>
+    </linearGradient>
+
+    <!-- Glow filter -->
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style><![CDATA[
+    /* Root stacking */
+    .bg { fill: url(#bgGrad); }
+
+    /* Title shimmer */
+    @keyframes shimmer {
+      0%, 100% { opacity: 1; filter: brightness(1); }
+      50% { opacity: 0.85; filter: brightness(1.3); }
+    }
+    .title {
+      font-family: 'Fira Code', 'Courier New', monospace;
+      font-size: 64px;
+      font-weight: 700;
+      fill: url(#textGrad);
+      animation: shimmer 4s ease-in-out infinite;
+    }
+
+    /* Subtitle fade */
+    @keyframes subtitleFade {
+      0%, 100% { opacity: 0.7; }
+      50% { opacity: 1; }
+    }
+    .subtitle {
+      font-family: 'Fira Code', 'Courier New', monospace;
+      font-size: 18px;
+      fill: #c9b8ff;
+      animation: subtitleFade 5s ease-in-out infinite;
+    }
+
+    /* Cursor blink */
+    @keyframes blink {
+      0%, 49% { opacity: 1; }
+      50%, 100% { opacity: 0; }
+    }
+    .cursor {
+      fill: #9F6BF5;
+      animation: blink 1s steps(2) infinite;
+    }
+
+    /* Typing text reveal */
+    @keyframes reveal {
+      0% { stroke-dashoffset: 600; }
+      40% { stroke-dashoffset: 0; }
+      100% { stroke-dashoffset: 0; }
+    }
+
+    /* Floating particles */
+    @keyframes float1 {
+      0%, 100% { transform: translate(0, 0); opacity: 0.3; }
+      25% { transform: translate(15px, -20px); opacity: 0.9; }
+      50% { transform: translate(30px, -5px); opacity: 0.6; }
+      75% { transform: translate(10px, 15px); opacity: 0.8; }
+    }
+    @keyframes float2 {
+      0%, 100% { transform: translate(0, 0); opacity: 0.2; }
+      33% { transform: translate(-20px, 15px); opacity: 0.7; }
+      66% { transform: translate(20px, -10px); opacity: 1; }
+    }
+    @keyframes float3 {
+      0%, 100% { transform: translate(0, 0) scale(1); opacity: 0.4; }
+      50% { transform: translate(-15px, -25px) scale(1.5); opacity: 1; }
+    }
+
+    .p1 { animation: float1 6s ease-in-out infinite; fill: #9F6BF5; transform-origin: center; }
+    .p2 { animation: float2 8s ease-in-out infinite; fill: #c9b8ff; transform-origin: center; }
+    .p3 { animation: float3 7s ease-in-out infinite; fill: #6E40C9; transform-origin: center; }
+
+    /* Pulsing orbs */
+    @keyframes pulse {
+      0%, 100% { r: 4; opacity: 0.6; }
+      50% { r: 7; opacity: 1; }
+    }
+    .orb { animation: pulse 3s ease-in-out infinite; fill: #9F6BF5; filter: url(#glow); }
+
+    /* Rotating ring */
+    @keyframes rotate {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+    .ring {
+      fill: none;
+      stroke: #6E40C9;
+      stroke-width: 1.5;
+      stroke-dasharray: 6 12;
+      animation: rotate 20s linear infinite;
+      transform-origin: center;
+    }
+    .ring2 {
+      fill: none;
+      stroke: #9F6BF5;
+      stroke-width: 1;
+      stroke-dasharray: 3 8;
+      animation: rotate 15s linear infinite reverse;
+      transform-origin: center;
+      opacity: 0.6;
+    }
+
+    /* Prompt line */
+    .prompt { fill: #3FB950; font-family: 'Fira Code', monospace; font-size: 16px; font-weight: 600; }
+    .prompt-user { fill: #9F6BF5; font-family: 'Fira Code', monospace; font-size: 16px; font-weight: 600; }
+    .prompt-cmd { fill: #c9d1d9; font-family: 'Fira Code', monospace; font-size: 16px; }
+
+    /* Scanning line */
+    @keyframes scan {
+      0% { transform: translateY(0); opacity: 0; }
+      10% { opacity: 0.4; }
+      90% { opacity: 0.4; }
+      100% { transform: translateY(300px); opacity: 0; }
+    }
+    .scanline {
+      fill: #9F6BF5;
+      opacity: 0;
+      animation: scan 5s ease-in-out infinite;
+    }
+  ]]></style>
+
+  <!-- Background -->
+  <rect class="bg" width="1200" height="300"/>
+
+  <!-- Subtle grid pattern -->
+  <g opacity="0.08" stroke="#9F6BF5" stroke-width="0.5">
+    <line x1="0" y1="75" x2="1200" y2="75"/>
+    <line x1="0" y1="150" x2="1200" y2="150"/>
+    <line x1="0" y1="225" x2="1200" y2="225"/>
+    <line x1="300" y1="0" x2="300" y2="300"/>
+    <line x1="600" y1="0" x2="600" y2="300"/>
+    <line x1="900" y1="0" x2="900" y2="300"/>
+  </g>
+
+  <!-- Floating particles (distributed) -->
+  <circle class="p1" cx="120" cy="80" r="2.5"/>
+  <circle class="p2" cx="180" cy="220" r="2"/>
+  <circle class="p3" cx="90" cy="180" r="3"/>
+  <circle class="p1" cx="240" cy="50" r="1.8"/>
+  <circle class="p2" cx="320" cy="250" r="2.5"/>
+  <circle class="p3" cx="150" cy="130" r="2"/>
+  <circle class="p1" cx="880" cy="60" r="2.5"/>
+  <circle class="p2" cx="960" cy="240" r="2"/>
+  <circle class="p3" cx="1050" cy="90" r="3"/>
+  <circle class="p1" cx="1120" cy="180" r="1.8"/>
+  <circle class="p2" cx="1000" cy="150" r="2.5"/>
+  <circle class="p3" cx="820" cy="210" r="2"/>
+  <circle class="p1" cx="1080" cy="260" r="2.2"/>
+  <circle class="p2" cx="850" cy="110" r="1.5"/>
+  <circle class="p3" cx="940" cy="50" r="2.8"/>
+
+  <!-- Decorative rings on the right -->
+  <g transform="translate(1050, 150)">
+    <circle class="ring" cx="0" cy="0" r="60"/>
+    <circle class="ring2" cx="0" cy="0" r="45"/>
+    <circle class="orb" cx="0" cy="0" r="4"/>
+  </g>
+
+  <!-- Decorative rings on the left -->
+  <g transform="translate(150, 150)">
+    <circle class="ring" cx="0" cy="0" r="50"/>
+    <circle class="ring2" cx="0" cy="0" r="35"/>
+    <circle class="orb" cx="0" cy="0" r="4"/>
+  </g>
+
+  <!-- Title text -->
+  <text class="title" x="600" y="140" text-anchor="middle">upayan@synapse</text>
+
+  <!-- Prompt line -->
+  <g transform="translate(600, 180)">
+    <text text-anchor="middle" font-family="Fira Code, monospace" font-size="16">
+      <tspan class="prompt">➜</tspan>
+      <tspan class="prompt-user" dx="8">~</tspan>
+      <tspan class="prompt-cmd" dx="8">AI Systems Engineer · OSS Builder · Building in Public</tspan>
+    </text>
+  </g>
+
+  <!-- Blinking cursor under title -->
+  <rect class="cursor" x="596" y="200" width="10" height="18"/>
+
+  <!-- Tagline -->
+  <text class="subtitle" x="600" y="250" text-anchor="middle">Building AI that remembers · adapts · explains itself</text>
+
+  <!-- Scanning line effect -->
+  <rect class="scanline" x="0" y="0" width="1200" height="2"/>
+</svg>

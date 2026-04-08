@@ -1,0 +1,140 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 140" width="1200" height="140" role="img" aria-label="Stats & Activity">
+  <title>Stats &amp; Activity — live GitHub metrics</title>
+  <defs>
+    <linearGradient id="shBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="50%" stop-color="#1a1040"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </linearGradient>
+    <linearGradient id="shAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#9F6BF5"/>
+      <stop offset="50%" stop-color="#c9b8ff"/>
+      <stop offset="100%" stop-color="#9F6BF5"/>
+    </linearGradient>
+    <linearGradient id="shGold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFD700"/>
+      <stop offset="100%" stop-color="#FFE066"/>
+    </linearGradient>
+    <filter id="shShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000" flood-opacity="0.3"/>
+    </filter>
+    <filter id="shGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <style><![CDATA[
+    .card-title {
+      font-family: 'Segoe UI', 'Inter', sans-serif;
+      font-size: 22px;
+      font-weight: 700;
+      fill: #c9b8ff;
+      letter-spacing: 1px;
+    }
+    .hero-hand {
+      font-family: 'Caveat', 'Kalam', 'Bradley Hand', 'Segoe Script', cursive;
+      font-size: 40px;
+      font-weight: 700;
+      fill: url(#shGold);
+    }
+    .hero-sub {
+      font-family: 'Segoe UI', 'Inter', sans-serif;
+      font-size: 13px;
+      font-weight: 500;
+      fill: #c9b8ff;
+    }
+    .note {
+      font-family: 'Caveat', 'Kalam', 'Segoe Script', cursive;
+      font-size: 22px;
+      font-weight: 700;
+      fill: #FFE066;
+    }
+    .pulse-label {
+      font-family: 'Segoe UI', sans-serif;
+      font-size: 11px;
+      font-weight: 700;
+      fill: #3FB950;
+      letter-spacing: 1px;
+    }
+
+    @keyframes pulse-green {
+      0%, 100% { opacity: 0.6; r: 5; }
+      50% { opacity: 1; r: 7; }
+    }
+    .live-dot {
+      fill: #3FB950;
+      animation: pulse-green 1.5s ease-in-out infinite;
+      filter: url(#shGlow);
+    }
+
+    @keyframes shimmer {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.9; filter: brightness(1.2); }
+    }
+    .hero-hand { animation: shimmer 4s ease-in-out infinite; }
+
+    @keyframes float-p {
+      0%, 100% { transform: translate(0,0); opacity: 0.3; }
+      50% { transform: translate(4px,-8px); opacity: 0.9; }
+    }
+    .p { animation: float-p 4s ease-in-out infinite; fill: #9F6BF5; }
+
+    @keyframes bar-grow {
+      0% { transform: scaleY(0.3); }
+      50% { transform: scaleY(1); }
+      100% { transform: scaleY(0.5); }
+    }
+    .bar { fill: #9F6BF5; transform-origin: bottom; animation: bar-grow 3s ease-in-out infinite; }
+  ]]></style>
+
+  <!-- Card background -->
+  <rect x="4" y="4" width="1192" height="132" rx="20" ry="20" fill="url(#shBg)" filter="url(#shShadow)"/>
+  <rect x="4" y="4" width="1192" height="132" rx="20" ry="20" fill="none" stroke="#9F6BF5" stroke-width="1.5" opacity="0.4"/>
+
+  <!-- Left accent stripe -->
+  <rect x="4" y="4" width="5" height="132" rx="2" fill="url(#shAccent)"/>
+
+  <!-- Card header -->
+  <text class="card-title" x="40" y="45">STATS &amp; ACTIVITY</text>
+
+  <!-- LIVE indicator -->
+  <g transform="translate(250, 35)">
+    <circle class="live-dot" cx="0" cy="5" r="5"/>
+    <text class="pulse-label" x="14" y="10">LIVE</text>
+  </g>
+
+  <text class="note" x="310" y="48" transform="rotate(-3, 310, 48)">← updated every hour ⚡</text>
+
+  <!-- Floating particles -->
+  <circle class="p" cx="1100" cy="30" r="2"/>
+  <circle class="p" cx="1150" cy="60" r="1.5" style="animation-delay: 0.5s"/>
+  <circle class="p" cx="1080" cy="100" r="2" style="animation-delay: 1s"/>
+  <circle class="p" cx="60" cy="110" r="1.8" style="animation-delay: 1.3s"/>
+
+  <!-- Big handwritten tagline -->
+  <text class="hero-hand" x="40" y="100">my live GitHub pulse</text>
+  <text class="hero-sub" x="40" y="120">streak · push history · PRs · code reviews · contribution snake — all real, all live</text>
+
+  <!-- Decorative mini bar chart on the right -->
+  <g transform="translate(900, 90)">
+    <rect class="bar" x="0"  y="-10" width="8" height="20" style="animation-delay: 0s"/>
+    <rect class="bar" x="14" y="-20" width="8" height="30" style="animation-delay: 0.2s"/>
+    <rect class="bar" x="28" y="-35" width="8" height="45" style="animation-delay: 0.4s"/>
+    <rect class="bar" x="42" y="-25" width="8" height="35" style="animation-delay: 0.6s"/>
+    <rect class="bar" x="56" y="-40" width="8" height="50" style="animation-delay: 0.8s"/>
+    <rect class="bar" x="70" y="-30" width="8" height="40" style="animation-delay: 1.0s"/>
+    <rect class="bar" x="84" y="-45" width="8" height="55" style="animation-delay: 1.2s"/>
+    <rect class="bar" x="98" y="-35" width="8" height="45" style="animation-delay: 1.4s"/>
+    <rect class="bar" x="112" y="-50" width="8" height="60" style="animation-delay: 1.6s"/>
+    <rect class="bar" x="126" y="-40" width="8" height="50" style="animation-delay: 1.8s"/>
+    <rect class="bar" x="140" y="-55" width="8" height="65" style="animation-delay: 2.0s"/>
+    <rect class="bar" x="154" y="-30" width="8" height="40" style="animation-delay: 2.2s"/>
+    <rect class="bar" x="168" y="-45" width="8" height="55" style="animation-delay: 2.4s"/>
+    <rect class="bar" x="182" y="-35" width="8" height="45" style="animation-delay: 2.6s"/>
+    <rect class="bar" x="196" y="-50" width="8" height="60" style="animation-delay: 2.8s"/>
+    <rect class="bar" x="210" y="-40" width="8" height="50" style="animation-delay: 1.5s"/>
+    <rect class="bar" x="224" y="-25" width="8" height="35" style="animation-delay: 0.7s"/>
+    <rect class="bar" x="238" y="-15" width="8" height="25" style="animation-delay: 1.1s"/>
+  </g>
+</svg>

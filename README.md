@@ -103,12 +103,6 @@ I build systems that *remember*, *route intelligently*, and *explain themselves*
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=UpayanGhosh&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github" height="170" />
-  &nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=UpayanGhosh&layout=compact&theme=tokyonight&hide_border=true&langs_count=7" height="170" />
-</div>
-
-<div align="center">
   <img src="https://streak-stats.demolab.com?user=UpayanGhosh&theme=tokyonight-duo&hide_border=true" />
 </div>
 

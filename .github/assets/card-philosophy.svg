@@ -1,0 +1,182 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="1200" height="340" role="img" aria-label="What I Care About">
+  <title>What I Care About — my philosophy</title>
+  <defs>
+    <linearGradient id="phBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#1a1040"/>
+    </linearGradient>
+    <linearGradient id="phGold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFD700"/>
+      <stop offset="100%" stop-color="#FFE066"/>
+    </linearGradient>
+    <linearGradient id="phNote" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF9C4"/>
+      <stop offset="100%" stop-color="#FFE57F"/>
+    </linearGradient>
+    <filter id="phShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000" flood-opacity="0.3"/>
+    </filter>
+    <filter id="phNoteShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="2" dy="4" stdDeviation="4" flood-color="#000" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+
+  <style><![CDATA[
+    .card-title {
+      font-family: 'Segoe UI', 'Inter', sans-serif;
+      font-size: 22px;
+      font-weight: 700;
+      fill: #c9b8ff;
+      letter-spacing: 1px;
+    }
+    .big-hand {
+      font-family: 'Caveat', 'Kalam', 'Bradley Hand', 'Segoe Script', cursive;
+      font-size: 48px;
+      font-weight: 700;
+      fill: url(#phGold);
+    }
+    .note-heading {
+      font-family: 'Caveat', 'Kalam', 'Bradley Hand', 'Segoe Script', cursive;
+      font-size: 22px;
+      font-weight: 700;
+      fill: #2d1458;
+    }
+    .note-body {
+      font-family: 'Caveat', 'Kalam', 'Segoe Script', cursive;
+      font-size: 18px;
+      font-weight: 600;
+      fill: #3d1a78;
+    }
+    .note-main {
+      font-family: 'Caveat', 'Kalam', 'Segoe Script', cursive;
+      font-size: 16px;
+      font-weight: 500;
+      fill: #1a1040;
+    }
+    .sub-label {
+      font-family: 'Caveat', 'Kalam', cursive;
+      font-size: 20px;
+      font-weight: 700;
+      fill: #FFE066;
+    }
+
+    @keyframes wiggle-a {
+      0%, 100% { transform: rotate(-3deg); }
+      50% { transform: rotate(-1deg); }
+    }
+    @keyframes wiggle-b {
+      0%, 100% { transform: rotate(2deg); }
+      50% { transform: rotate(4deg); }
+    }
+    @keyframes wiggle-c {
+      0%, 100% { transform: rotate(-1deg); }
+      50% { transform: rotate(-3deg); }
+    }
+    @keyframes wiggle-d {
+      0%, 100% { transform: rotate(3deg); }
+      50% { transform: rotate(1deg); }
+    }
+    @keyframes wiggle-e {
+      0%, 100% { transform: rotate(-2deg); }
+      50% { transform: rotate(0deg); }
+    }
+    .note-1 { animation: wiggle-a 6s ease-in-out infinite; transform-origin: center; }
+    .note-2 { animation: wiggle-b 7s ease-in-out infinite; transform-origin: center; }
+    .note-3 { animation: wiggle-c 5.5s ease-in-out infinite; transform-origin: center; }
+    .note-4 { animation: wiggle-d 6.5s ease-in-out infinite; transform-origin: center; }
+    .note-5 { animation: wiggle-e 7.5s ease-in-out infinite; transform-origin: center; }
+
+    @keyframes float-p {
+      0%, 100% { transform: translate(0,0); opacity: 0.3; }
+      50% { transform: translate(4px,-8px); opacity: 0.8; }
+    }
+    .p { animation: float-p 4s ease-in-out infinite; fill: #9F6BF5; }
+
+    .tape {
+      fill: rgba(200,200,255,0.3);
+    }
+  ]]></style>
+
+  <!-- Card background -->
+  <rect x="4" y="4" width="1192" height="332" rx="20" ry="20" fill="url(#phBg)" filter="url(#phShadow)"/>
+  <rect x="4" y="4" width="1192" height="332" rx="20" ry="20" fill="none" stroke="#9F6BF5" stroke-width="1.5" opacity="0.4"/>
+
+  <!-- Accent left stripe -->
+  <rect x="4" y="4" width="5" height="332" rx="2" fill="url(#phGold)"/>
+
+  <!-- Card header -->
+  <text class="card-title" x="40" y="45">WHAT I CARE ABOUT</text>
+  <text class="sub-label" x="280" y="48" transform="rotate(-3, 280, 48)">← the stuff that matters 💜</text>
+
+  <!-- Divider -->
+  <line x1="40" y1="60" x2="1160" y2="60" stroke="#9F6BF5" stroke-width="1" opacity="0.2"/>
+
+  <!-- Floating particles -->
+  <circle class="p" cx="1140" cy="30" r="2"/>
+  <circle class="p" cx="1100" cy="50" r="1.5" style="animation-delay: 0.5s"/>
+  <circle class="p" cx="50" cy="310" r="2" style="animation-delay: 1s"/>
+  <circle class="p" cx="1150" cy="300" r="1.8" style="animation-delay: 1.3s"/>
+
+  <!-- ============== 5 STICKY NOTES ============== -->
+
+  <!-- Note 1: Systems that remember -->
+  <g class="note-1" transform="translate(110, 190)">
+    <rect x="-90" y="-80" width="180" height="160" rx="4" fill="url(#phNote)" filter="url(#phNoteShadow)"/>
+    <!-- Tape on top -->
+    <rect class="tape" x="-30" y="-90" width="60" height="20" rx="2"/>
+    <text class="note-heading" x="0" y="-45" text-anchor="middle">Memory ✨</text>
+    <line x1="-70" y1="-30" x2="70" y2="-30" stroke="#2d1458" stroke-width="1" opacity="0.3"/>
+    <text class="note-main" x="-70" y="-5" style="font-size: 15px;">Systems that</text>
+    <text class="note-main" x="-70" y="15" style="font-size: 15px;">remember —</text>
+    <text class="note-main" x="-70" y="35" style="font-size: 15px;">not just</text>
+    <text class="note-main" x="-70" y="55" style="font-size: 15px;">respond.</text>
+  </g>
+
+  <!-- Note 2: Adaptive AI -->
+  <g class="note-2" transform="translate(320, 200)">
+    <rect x="-90" y="-80" width="180" height="160" rx="4" fill="url(#phNote)" filter="url(#phNoteShadow)"/>
+    <rect class="tape" x="-30" y="-90" width="60" height="20" rx="2"/>
+    <text class="note-heading" x="0" y="-45" text-anchor="middle">Adaptive 🎯</text>
+    <line x1="-70" y1="-30" x2="70" y2="-30" stroke="#2d1458" stroke-width="1" opacity="0.3"/>
+    <text class="note-main" x="-70" y="-5" style="font-size: 15px;">AI that adapts</text>
+    <text class="note-main" x="-70" y="15" style="font-size: 15px;">to the user —</text>
+    <text class="note-main" x="-70" y="35" style="font-size: 15px;">not the other</text>
+    <text class="note-main" x="-70" y="55" style="font-size: 15px;">way around.</text>
+  </g>
+
+  <!-- Note 3: Privacy first -->
+  <g class="note-3" transform="translate(530, 185)">
+    <rect x="-90" y="-80" width="180" height="160" rx="4" fill="url(#phNote)" filter="url(#phNoteShadow)"/>
+    <rect class="tape" x="-30" y="-90" width="60" height="20" rx="2"/>
+    <text class="note-heading" x="0" y="-45" text-anchor="middle">Privacy 🔒</text>
+    <line x1="-70" y1="-30" x2="70" y2="-30" stroke="#2d1458" stroke-width="1" opacity="0.3"/>
+    <text class="note-main" x="-70" y="-5" style="font-size: 15px;">Privacy-first —</text>
+    <text class="note-main" x="-70" y="15" style="font-size: 15px;">your data stays</text>
+    <text class="note-main" x="-70" y="35" style="font-size: 15px;">on your own</text>
+    <text class="note-main" x="-70" y="55" style="font-size: 15px;">machine.</text>
+  </g>
+
+  <!-- Note 4: Constraint-driven -->
+  <g class="note-4" transform="translate(740, 200)">
+    <rect x="-90" y="-80" width="180" height="160" rx="4" fill="url(#phNote)" filter="url(#phNoteShadow)"/>
+    <rect class="tape" x="-30" y="-90" width="60" height="20" rx="2"/>
+    <text class="note-heading" x="0" y="-45" text-anchor="middle">Constraints 🛠</text>
+    <line x1="-70" y1="-30" x2="70" y2="-30" stroke="#2d1458" stroke-width="1" opacity="0.3"/>
+    <text class="note-main" x="-70" y="-5" style="font-size: 15px;">Make it work</text>
+    <text class="note-main" x="-70" y="15" style="font-size: 15px;">on consumer</text>
+    <text class="note-main" x="-70" y="35" style="font-size: 15px;">hardware. No</text>
+    <text class="note-main" x="-70" y="55" style="font-size: 15px;">GPU clusters.</text>
+  </g>
+
+  <!-- Note 5: Use every tool -->
+  <g class="note-5" transform="translate(950, 185)">
+    <rect x="-90" y="-80" width="180" height="160" rx="4" fill="url(#phNote)" filter="url(#phNoteShadow)"/>
+    <rect class="tape" x="-30" y="-90" width="60" height="20" rx="2"/>
+    <text class="note-heading" x="0" y="-45" text-anchor="middle">Every Tool 🤖</text>
+    <line x1="-70" y1="-30" x2="70" y2="-30" stroke="#2d1458" stroke-width="1" opacity="0.3"/>
+    <text class="note-main" x="-70" y="-5" style="font-size: 15px;">Use every tool</text>
+    <text class="note-main" x="-70" y="15" style="font-size: 15px;">available —</text>
+    <text class="note-main" x="-70" y="35" style="font-size: 15px;">including AI —</text>
+    <text class="note-main" x="-70" y="55" style="font-size: 15px;">to ship better.</text>
+  </g>
+</svg>

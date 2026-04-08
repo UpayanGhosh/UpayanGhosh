@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 260" width="1200" height="260" role="img" aria-label="claude-jarvis">
+  <title>claude-jarvis — Universal intent router for Claude Code</title>
+  <defs>
+    <linearGradient id="jBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2a1f00"/>
+      <stop offset="50%" stop-color="#4a3800"/>
+      <stop offset="100%" stop-color="#2a1f00"/>
+    </linearGradient>
+    <linearGradient id="jAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFD700"/>
+      <stop offset="50%" stop-color="#F1E05A"/>
+      <stop offset="100%" stop-color="#FFD700"/>
+    </linearGradient>
+    <radialGradient id="jBolt" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFACD"/>
+      <stop offset="100%" stop-color="#F1E05A"/>
+    </radialGradient>
+    <filter id="jGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="jSoftGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="jShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#000" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+
+  <style><![CDATA[
+    @keyframes electric {
+      0%,100% { opacity: 0.7; transform: scale(1); }
+      25% { opacity: 1; transform: scale(1.08); }
+      50% { opacity: 0.9; transform: scale(1.02); }
+      75% { opacity: 1; transform: scale(1.1); }
+    }
+    @keyframes shimmer-y { 0%,100%{opacity:1;} 50%{opacity:0.85;filter:brightness(1.3);} }
+    @keyframes float-y {
+      0%,100% { transform: translate(0,0); opacity: 0.5; }
+      50% { transform: translate(6px,-10px); opacity: 1; }
+    }
+    @keyframes spark {
+      0%,100% { opacity: 0; transform: scale(0.5); }
+      50% { opacity: 1; transform: scale(1.3); }
+    }
+    @keyframes dash {
+      to { stroke-dashoffset: -40; }
+    }
+    .title { font-family: 'Segoe UI','SF Pro Display',sans-serif; font-size: 44px; font-weight: 800; fill: url(#jAccent); animation: shimmer-y 3s infinite; }
+    .subtitle { font-family: 'Segoe UI',sans-serif; font-size: 18px; font-weight: 600; fill: #FFE066; }
+    .desc { font-family: 'Segoe UI',sans-serif; font-size: 15px; fill: #faeed0; }
+    .cmd { font-family: 'Fira Code','Courier New',monospace; font-size: 16px; font-weight: 600; fill: #FFD700; }
+    .tag { font-family: 'Fira Code',monospace; font-size: 12px; font-weight: 600; fill: #FFE066; }
+    .bolt { fill: url(#jBolt); filter: url(#jGlow); animation: electric 2s ease-in-out infinite; transform-origin: 120px 130px; }
+    .bolt-outline { fill: none; stroke: #FFFACD; stroke-width: 2; opacity: 0.8; }
+    .p { fill: #F1E05A; animation: float-y 3s ease-in-out infinite; }
+    .spark { fill: #FFFACD; animation: spark 1.5s ease-in-out infinite; }
+    .pill { fill: rgba(241,224,90,0.18); stroke: #F1E05A; stroke-width: 1.5; }
+    .ring { fill: none; stroke: #F1E05A; stroke-width: 1.5; stroke-dasharray: 8 4; animation: dash 8s linear infinite; }
+  ]]></style>
+
+  <!-- Background with shadow -->
+  <rect x="4" y="4" width="1192" height="252" rx="24" ry="24" fill="url(#jBg)" filter="url(#jShadow)"/>
+  <rect x="4" y="4" width="1192" height="252" rx="24" ry="24" fill="none" stroke="#F1E05A" stroke-width="2" opacity="0.6"/>
+
+  <!-- Top accent bar -->
+  <rect x="4" y="4" width="1192" height="5" rx="2" fill="url(#jAccent)"/>
+
+  <!-- Floating particles -->
+  <circle class="p" cx="1100" cy="40" r="2.5"/>
+  <circle class="p" cx="1140" cy="80" r="2" style="animation-delay: 0.5s"/>
+  <circle class="p" cx="1080" cy="60" r="3" style="animation-delay: 1s"/>
+  <circle class="p" cx="1160" cy="30" r="2" style="animation-delay: 1.5s"/>
+  <circle class="p" cx="1050" cy="200" r="2.5" style="animation-delay: 0.8s"/>
+  <circle class="p" cx="1120" cy="220" r="2" style="animation-delay: 1.2s"/>
+  <circle class="p" cx="50" cy="50" r="2" style="animation-delay: 0.3s"/>
+  <circle class="p" cx="30" cy="200" r="2.5" style="animation-delay: 1.8s"/>
+
+  <!-- Sparks around bolt -->
+  <circle class="spark" cx="60" cy="95" r="2"/>
+  <circle class="spark" cx="185" cy="105" r="1.5" style="animation-delay: 0.3s"/>
+  <circle class="spark" cx="55" cy="165" r="2.5" style="animation-delay: 0.6s"/>
+  <circle class="spark" cx="190" cy="180" r="2" style="animation-delay: 0.9s"/>
+  <circle class="spark" cx="100" cy="50" r="1.5" style="animation-delay: 1.2s"/>
+  <circle class="spark" cx="140" cy="225" r="2" style="animation-delay: 0.4s"/>
+
+  <!-- Rotating ring around bolt -->
+  <circle class="ring" cx="120" cy="130" r="75"/>
+  <circle class="ring" cx="120" cy="130" r="90" style="animation-direction: reverse; opacity: 0.4"/>
+
+  <!-- Lightning bolt icon -->
+  <g>
+    <path class="bolt" d="M 130 60 L 95 135 L 120 135 L 105 200 L 155 120 L 128 120 Z"/>
+    <path class="bolt-outline" d="M 130 60 L 95 135 L 120 135 L 105 200 L 155 120 L 128 120 Z"/>
+  </g>
+
+  <!-- Title -->
+  <text class="title" x="240" y="80">claude-jarvis</text>
+  <text class="subtitle" x="240" y="110">The only Claude Code skill you need</text>
+
+  <!-- Description -->
+  <text class="desc" x="240" y="145">Universal intent router — reads what you typed, picks the best skill from</text>
+  <text class="desc" x="240" y="165">GSD, Superpowers, and gstack automatically. No more remembering commands.</text>
+
+  <!-- Install command box -->
+  <g transform="translate(240, 185)">
+    <rect x="0" y="0" width="480" height="36" rx="8" fill="rgba(0,0,0,0.4)" stroke="#F1E05A" stroke-width="1" opacity="0.9"/>
+    <text class="cmd" x="16" y="23">$ npm install -g claude-jarvis</text>
+  </g>
+
+  <!-- Tech/stat pills on right -->
+  <g transform="translate(750, 120)">
+    <rect class="pill" x="0" y="0" width="90" height="26" rx="13"/>
+    <text class="tag" x="45" y="17" text-anchor="middle">npm package</text>
+
+    <rect class="pill" x="100" y="0" width="94" height="26" rx="13"/>
+    <text class="tag" x="147" y="17" text-anchor="middle">JavaScript</text>
+
+    <rect class="pill" x="204" y="0" width="110" height="26" rx="13"/>
+    <text class="tag" x="259" y="17" text-anchor="middle">intent routing</text>
+
+    <rect class="pill" x="324" y="0" width="94" height="26" rx="13"/>
+    <text class="tag" x="371" y="17" text-anchor="middle">Claude Code</text>
+  </g>
+
+  <!-- Arrow + command usage on right -->
+  <g transform="translate(750, 170)">
+    <text class="cmd" x="0" y="20" style="font-size: 14px;">→ /jarvis &lt;your intent&gt;</text>
+    <text class="tag" x="0" y="42">auto-picks GSD · Superpowers · gstack</text>
+  </g>
+
+  <!-- Star + featured label -->
+  <g transform="translate(240, 240)">
+    <path d="M 6 0 L 7.5 4.5 L 12 4.5 L 8.5 7.5 L 10 12 L 6 9 L 2 12 L 3.5 7.5 L 0 4.5 L 4.5 4.5 Z" fill="#FFE066"/>
+    <text class="tag" x="18" y="10">FLAGSHIP · github.com/UpayanGhosh/claude-jarvis</text>
+  </g>
+</svg>

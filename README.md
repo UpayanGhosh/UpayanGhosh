@@ -32,7 +32,7 @@
 
 ---
 
-## `$ cat about.txt`
+## 👤 About
 
 ```
 ╔══════════════════════════════════════════════════════════════════╗
@@ -49,7 +49,7 @@
 
 ---
 
-## `$ ls ~/projects --highlight=active`
+## ⚡ Featured Projects
 
 ```diff
 + [🧠 Synapse-OSS]   github.com/UpayanGhosh/Synapse-OSS
@@ -80,7 +80,7 @@
 
 ---
 
-## `$ git log --graph --stat`
+## 📊 Stats & Activity
 
 <div align="center">
   <img src="https://streak-stats.demolab.com?user=UpayanGhosh&theme=tokyonight-duo&hide_border=true" />
@@ -116,7 +116,7 @@
 
 ---
 
-## `$ cat stack.txt`
+## 🛠 Tech Stack
 
 ```
 upayan@synapse:~$ ls -la ~/skills
@@ -139,7 +139,7 @@ ALSO KNOW  ───────────────────────
 
 ---
 
-## `$ cat philosophy.txt`
+## 📐 What I Care About
 
 ```
   →  Systems that remember  ·  not just respond
@@ -151,7 +151,7 @@ ALSO KNOW  ───────────────────────
 
 ---
 
-## `$ curl -s contact.sh | bash`
+## 📬 Let's Talk
 
 ```
 Connecting to upayan@synapse...

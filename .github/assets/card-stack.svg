@@ -111,7 +111,7 @@
   <circle class="p" cx="60" cy="390" r="2" style="animation-delay: 1s"/>
   <circle class="p" cx="1150" cy="380" r="1.8" style="animation-delay: 1.5s"/>
 
-  <!-- ============ SECTION 1: AI & SYSTEMS ============ -->
+  <!-- ============ SECTION 1: AI and SYSTEMS ============ -->
   <g transform="translate(40, 100)">
     <text class="section-label section-ai" x="0" y="0">AI &amp; Systems</text>
     <line class="hand-underline ul-ai" x1="0" y1="10" x2="200" y2="10"/>

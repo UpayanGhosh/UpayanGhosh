@@ -1,133 +1,207 @@
-<h1 align="center">Upayan Ghosh</h1>
-<h3 align="center">AI Systems Engineer · Building intelligent software that remembers, adapts, and reasons</h3>
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,30:1a1040,70:3d1a78,100:6E40C9&height=220&section=header&text=Upayan%20Ghosh&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=AI%20Systems%20Engineer%20%E2%80%A2%20Builder%20of%20Intelligent%20Software&descSize=18&descAlignY=57&descAlign=50&descColor=c9b8ff" width="100%" />
+</div>
 
-<p align="center">
-  Application Development Analyst @ Accenture by day.<br/>
-  Building multi-agent AI systems on evenings and weekends.
-</p>
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=19&pause=1000&color=9F6BF5&center=true&vCenter=true&random=false&width=620&lines=Building+AI+that+remembers+%26+adapts+%F0%9F%A7%A0;Multi-agent+systems+%7C+RAG+%7C+OSS+tooling;Open+source+%7C+Building+in+public+%F0%9F%91%80;Application+Dev+Analyst+%40+Accenture" alt="Typing SVG" />
+</div>
+
+<br/>
+
+<div align="center">
+  <a href="https://www.linkedin.com/in/upayan-ghosh-shorty/">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  &nbsp;
+  <a href="mailto:upayan1231@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
+  </a>
+  &nbsp;
+  <a href="https://twitter.com/UpayanGhosh0_0">
+    <img src="https://img.shields.io/badge/X%20%2F%20Twitter-000000?style=for-the-badge&logo=x&logoColor=white" alt="X/Twitter" />
+  </a>
+  &nbsp;
+  <a href="https://www.npmjs.com/package/claude-jarvis">
+    <img src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white" alt="npm" />
+  </a>
+  &nbsp;
+  <img src="https://komarev.com/ghpvc/?username=UpayanGhosh&style=for-the-badge&color=6E40C9&label=PROFILE+VIEWS" alt="Profile views" />
+</div>
+
+<br/>
 
 ---
 
 <div align="center">
-  <a href="https://www.linkedin.com/in/upayan-ghosh-shorty/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-Upayan%20Ghosh-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn" />
-  </a>
-  <a href="mailto:upayan1231@gmail.com" target="_blank">
-    <img src="https://img.shields.io/badge/Email-upayan1231%40gmail.com-red?style=for-the-badge&logo=gmail" alt="Email" />
-  </a>
-  <a href="https://twitter.com/UpayanGhosh0_0" target="_blank">
-    <img src="https://img.shields.io/badge/Twitter-@UpayanGhosh0__0-1DA1F2?style=for-the-badge&logo=twitter" alt="Twitter" />
-  </a>
+
+**Application Development Analyst @ Accenture** by day &nbsp;·&nbsp; **Open-source AI systems** on evenings & weekends
+
+I build systems that *remember*, *route intelligently*, and *explain themselves* — not just models that respond.
+
 </div>
 
 ---
 
-## 🔥 Featured Project
+## ⚡ Featured Projects
 
-### [JARVIS — Multi-Agent AI Assistant](https://github.com/UpayanGhosh/Jarvis-OSS)
+<div align="center">
+  <table>
+    <tr>
+      <td width="49%" valign="top">
+        <a href="https://github.com/UpayanGhosh/Synapse-OSS">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=UpayanGhosh&repo=Synapse-OSS&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=9F6BF5&icon_color=9F6BF5&text_color=c9d1d9" width="100%" />
+        </a>
+        <br/>
+        <p>
+          <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+          <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
+          <img src="https://img.shields.io/badge/Ollama-000000?style=flat-square&logoColor=white" />
+          <img src="https://img.shields.io/badge/Qdrant-DC244C?style=flat-square&logoColor=white" />
+        </p>
+        <p>Self-hosted AI assistant with <strong>hybrid memory</strong>, evolving personality, and multi-channel support. WhatsApp · Telegram · Discord · Slack. Sensitive messages never leave your machine.</p>
+        <p>
+          <code>Knowledge graph + vector search · &lt;350ms retrieval</code><br/>
+          <code>Personality evolves every 50 messages</code><br/>
+          <code>Private routing via local Ollama</code>
+        </p>
+      </td>
+      <td width="2%"></td>
+      <td width="49%" valign="top">
+        <a href="https://github.com/UpayanGhosh/tldr-skill">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=UpayanGhosh&repo=tldr-skill&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=3FB950&icon_color=3FB950&text_color=c9d1d9" width="100%" />
+        </a>
+        <br/>
+        <p>
+          <img src="https://img.shields.io/badge/Claude%20Code-CC785C?style=flat-square&logo=anthropic&logoColor=white" />
+          <img src="https://img.shields.io/badge/D3.js-F9A03C?style=flat-square&logo=d3.js&logoColor=white" />
+          <img src="https://img.shields.io/badge/Cytoscape.js-F08300?style=flat-square&logoColor=white" />
+        </p>
+        <p>Claude Code skill that turns <strong>any codebase</strong> into a fully interactive, self-hosted explainer website. Two words, zero config, no external dependencies.</p>
+        <p>
+          <code>Interactive dependency graph (Cytoscape.js)</code><br/>
+          <code>D3.js directory mind map + Mermaid diagrams</code><br/>
+          <code>Full-text search · dark mode · mobile-ready</code>
+        </p>
+      </td>
+    </tr>
+  </table>
+</div>
 
-A self-hosted AI system with **hybrid memory**, **evolving personality**, and **privacy-first model routing** — running 24/7 on a MacBook Air.
+<br/>
 
-Built on top of [OpenClaw](https://github.com/openclaw/openclaw) with 11 custom-engineered subsystems:
+<div align="center">
+  <a href="https://github.com/UpayanGhosh/claude-jarvis">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=UpayanGhosh&repo=claude-jarvis&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=F1E05A&icon_color=F1E05A&text_color=c9d1d9" width="49%" />
+  </a>
+</div>
 
-| Subsystem | What it does |
-|---|---|
-| 🧠 **Hybrid RAG Memory** | SQLite knowledge graph + Qdrant vector search + FlashRank reranker. Remembers everything. <350ms retrieval. |
-| 🎭 **Soul-Brain Sync** | Real-time persona engine. Tracks mood, sentiment, language patterns. Personality evolves every 50 messages. |
-| 🚦 **Mixture of Agents** | Traffic Cop classifies intent → routes to 5 specialist models. Casual chat doesn't burn expensive credits. |
-| 🌶️ **The Vault** | Private conversations route to local Ollama. Zero cloud leakage. Zero external logging. |
-| 🧩 **Dual Cognition** | Inner monologue + tension detection before every reply. The bot *thinks* before responding. |
-| ⚙️ **Async Pipeline** | FloodGate batching → deduplication → queue → concurrent workers. Zero dropped messages. |
+<div align="center">
 
+**The only Claude Code skill you need.**
 
-> ⭐ [**Check it out →**](https://github.com/UpayanGhosh/Jarvis-OSS)
+Universal intent router — reads what you typed, picks the best skill from GSD, Superpowers, and gstack *automatically*. No more remembering commands.
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://img.shields.io/npm/v/claude-jarvis?style=flat-square&color=CB3837&logo=npm&logoColor=white&label=npm" />
+      &nbsp;
+      <img src="https://img.shields.io/npm/dm/claude-jarvis?style=flat-square&color=CB3837&logo=npm&logoColor=white&label=installs%2Fmonth" />
+      &nbsp;
+      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
+      &nbsp;
+      <img src="https://img.shields.io/github/stars/UpayanGhosh/claude-jarvis?style=flat-square&color=F1E05A" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <code>npm install -g claude-jarvis</code> &nbsp;→&nbsp; <code>/jarvis &lt;your intent&gt;</code>
+    </td>
+  </tr>
+</table>
+
+</div>
 
 ---
 
-## 👨‍💻 About Me
+## 📊 GitHub Stats
 
-- 🏢 Working at **Accenture** — primary stack: .NET, C#, Angular, SQL Server
-- 🤖 Building **AI systems** independently — Python, FastAPI, RAG, LLM orchestration
-- 🧠 Focused on: **retrieval-augmented generation**, **multi-agent architectures**, **persona systems**
-- 🔧 I use AI coding tools extensively and I'm not shy about it — the skill is architecture, not typing
-- 🎮 Outside work: hardcore gamer, movies, random engineering experiments
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=UpayanGhosh&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=9F6BF5&icon_color=9F6BF5&text_color=c9d1d9&include_all_commits=true&count_private=true&rank_icon=github" height="170" />
+  &nbsp;
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=UpayanGhosh&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=9F6BF5&text_color=c9d1d9&langs_count=7" height="170" />
+</div>
+
+<div align="center">
+  <img src="https://streak-stats.demolab.com?user=UpayanGhosh&theme=tokyonight-duo&hide_border=true&background=0d1117&stroke=6E40C9&ring=9F6BF5&fire=F1E05A&currStreakLabel=9F6BF5&sideLabels=9F6BF5&dates=8b949e" />
+</div>
+
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=UpayanGhosh&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&column=7" width="100%" />
+</div>
 
 ---
 
-## 🛠 What I Work With
+## 🛠 Tech Stack
 
-### AI / ML Systems (where I spend my evenings)
+**AI / Systems** *(evenings & weekends)*
 
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="Python" />
-  <img width="8" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" height="40" alt="FastAPI" />
-  <img width="8" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" height="40" alt="SQLite" />
-  <img width="8" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="40" alt="Docker" />
-  <img width="8" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" height="40" alt="Bash" />
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=python,fastapi,docker,bash,linux,sqlite&theme=dark" />
+</div>
+<div align="center">
+  <sub>+ Qdrant &nbsp;·&nbsp; Ollama &nbsp;·&nbsp; LiteLLM &nbsp;·&nbsp; FlashRank &nbsp;·&nbsp; sentence-transformers &nbsp;·&nbsp; Claude API &nbsp;·&nbsp; OpenAI SDK</sub>
 </div>
 
-> **Also:** Qdrant · Ollama · FlashRank · sentence-transformers · Gemini API · Claude API · OpenAI SDK
+<br/>
 
-### Day Job Stack
+**Day Job**
 
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" height="40" alt="C#" />
-  <img width="8" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-original.svg" height="40" alt=".NET" />
-  <img width="8" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" height="40" alt="Angular" />
-  <img width="8" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="40" alt="TypeScript" />
-  <img width="8" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="JavaScript" />
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=cs,dotnet,angular,ts,js,git&theme=dark" />
+</div>
+<div align="center">
+  <sub>+ SQL Server &nbsp;·&nbsp; Firebase &nbsp;·&nbsp; Bootstrap</sub>
 </div>
 
-> **Also:** SQL Server · Firebase · HTML/CSS · Bootstrap
+<br/>
 
-### Other Languages I've Worked With
+**Also worked with**
 
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" height="40" alt="C" />
-  <img width="8" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" height="40" alt="C++" />
-  <img width="8" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg" height="40" alt="Dart" />
-  <img width="8" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" height="40" alt="Flutter" />
-  <img width="8" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" alt="React" />
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=c,cpp,dart,flutter,react&theme=dark" />
 </div>
 
 ---
 
 ## 📐 What I Care About
-→ Systems that remember (not just respond)
-→ AI that adapts to the user (not the other way around)
-→ Privacy-first design (your data stays yours)
-→ Constraint-driven engineering (make it work on consumer hardware)
+
+```
+→ Systems that remember — not just respond
+→ AI that adapts to the user, not the other way around
+→ Privacy-first design — your data stays on your machine
+→ Constraint-driven engineering — make it work on consumer hardware
 → Using every tool available (including AI) to build better software
+```
 
 ---
 
 ## 📬 Let's Talk
 
-I'm open to:
-- **Freelance AI/chatbot projects** — RAG pipelines, WhatsApp/Telegram bots, document Q&A systems
-- **Interesting collaborations** — especially around retrieval systems and multi-agent architectures
-- **Conversations** — about AI engineering, building in public, or anything interesting
-
-**Best way to reach me:** [LinkedIn DM](https://www.linkedin.com/in/upayan-ghosh-shorty/) or [email](mailto:upayan1231@gmail.com)
-
----
+Open to **freelance AI projects** (RAG pipelines, chatbots, document Q&A), **collaborations** around retrieval systems and multi-agent architectures, or just a conversation about building in public.
 
 <div align="center">
-  <img
-    src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOGhqdWUwcThubmNjODQzZ2hkbjZ0Z2s0dTAxbHZ3cmdoZnEwMHp5dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qgQUggAC3Pfv687qPC/giphy.gif"
-    height="180"
-    alt="Coding gif"
-  />
+  <a href="https://www.linkedin.com/in/upayan-ghosh-shorty/">
+    <img src="https://img.shields.io/badge/LinkedIn%20DM-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  &nbsp;
+  <a href="mailto:upayan1231@gmail.com">
+    <img src="https://img.shields.io/badge/Send%20an%20Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+</div>
+
+<br/>
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:6E40C9,30:3d1a78,70:1a1040,100:0d1117&height=120&section=footer" width="100%" />
 </div>

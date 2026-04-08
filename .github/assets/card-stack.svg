@@ -100,7 +100,7 @@
 
   <!-- Card header -->
   <text class="card-title" x="40" y="45">TECH STACK</text>
-  <text class="note" x="190" y="48" transform="rotate(-3, 190, 48)">← what I build with</text>
+  <text class="card-subtitle" x="40" y="68" style="font-family: 'Segoe UI', sans-serif; font-size: 13px; fill: #8a7fb0; letter-spacing: 1px;">WHAT I BUILD WITH</text>
 
   <!-- Divider under title -->
   <line x1="40" y1="60" x2="1160" y2="60" stroke="#9F6BF5" stroke-width="1" opacity="0.2"/>
@@ -115,7 +115,6 @@
   <g transform="translate(40, 100)">
     <text class="section-label section-ai" x="0" y="0">AI &amp; Systems</text>
     <line class="hand-underline ul-ai" x1="0" y1="10" x2="200" y2="10"/>
-    <text class="note" x="210" y="6" transform="rotate(-2, 210, 6)">my happy place ✨</text>
 
     <!-- Chips -->
     <g transform="translate(0, 30)">
@@ -162,7 +161,6 @@
   <g transform="translate(40, 200)">
     <text class="section-label section-web" x="0" y="0">Day Job</text>
     <line class="hand-underline ul-web" x1="0" y1="10" x2="130" y2="10"/>
-    <text class="note" x="140" y="6" transform="rotate(-2, 140, 6)" fill="#58A6FF">at Accenture</text>
 
     <g transform="translate(0, 30)">
       <g transform="translate(0, 0)">
@@ -200,7 +198,6 @@
   <g transform="translate(40, 300)">
     <text class="section-label section-past" x="0" y="0">Also Know</text>
     <line class="hand-underline ul-past" x1="0" y1="10" x2="160" y2="10"/>
-    <text class="note" x="170" y="6" transform="rotate(-2, 170, 6)" fill="#3FB950">from the old days 🗂</text>
 
     <g transform="translate(0, 30)">
       <g transform="translate(0, 0)">

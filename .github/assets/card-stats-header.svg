@@ -104,7 +104,7 @@
     <text class="pulse-label" x="14" y="10">LIVE</text>
   </g>
 
-  <text class="note" x="310" y="48" transform="rotate(-3, 310, 48)">← updated every hour ⚡</text>
+  <text style="font-family: 'Segoe UI', sans-serif; font-size: 11px; fill: #8a7fb0; letter-spacing: 1px; font-weight: 500;" x="310" y="42">UPDATED HOURLY</text>
 
   <!-- Floating particles -->
   <circle class="p" cx="1100" cy="30" r="2"/>
@@ -112,9 +112,9 @@
   <circle class="p" cx="1080" cy="100" r="2" style="animation-delay: 1s"/>
   <circle class="p" cx="60" cy="110" r="1.8" style="animation-delay: 1.3s"/>
 
-  <!-- Big handwritten tagline -->
-  <text class="hero-hand" x="40" y="100">my live GitHub pulse</text>
-  <text class="hero-sub" x="40" y="120">streak · push history · PRs · code reviews · contribution snake — all real, all live</text>
+  <!-- Tagline -->
+  <text style="font-family: 'Segoe UI', 'SF Pro Display', 'Inter', sans-serif; font-size: 32px; font-weight: 700; fill: #ffffff; letter-spacing: -0.5px;" x="40" y="100">Live GitHub Pulse</text>
+  <text class="hero-sub" x="40" y="120" style="font-family: 'Segoe UI', sans-serif; font-size: 13px; fill: #8a7fb0;">Streak · Push history · PRs · Code reviews · Contribution snake — all live</text>
 
   <!-- Decorative mini bar chart on the right -->
   <g transform="translate(900, 90)">

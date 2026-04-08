@@ -127,6 +127,38 @@ I build systems that *remember*, *route intelligently*, and *explain themselves*
 
 ---
 
+## 📈 Activity & Contributions
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=UpayanGhosh&theme=tokyo-night&hide_border=true&area=true&bg_color=0d1117&color=9F6BF5&line=6E40C9&point=c9b8ff&area_color=6E40C9&custom_title=Contribution%20Activity%20Graph" width="100%" />
+</div>
+
+<br/>
+
+<div align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=UpayanGhosh&theme=tokyonight" width="99%" />
+</div>
+
+<div align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=UpayanGhosh&theme=tokyonight" width="32%" />
+  &nbsp;
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=UpayanGhosh&theme=tokyonight" width="32%" />
+  &nbsp;
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=UpayanGhosh&theme=tokyonight" width="32%" />
+</div>
+
+<br/>
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/UpayanGhosh/UpayanGhosh/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/UpayanGhosh/UpayanGhosh/output/github-contribution-grid-snake.svg" />
+    <img alt="Contribution snake animation" src="https://raw.githubusercontent.com/UpayanGhosh/UpayanGhosh/output/github-contribution-grid-snake-dark.svg" />
+  </picture>
+</div>
+
+---
+
 ## 🛠 Tech Stack
 
 **AI / Systems** *(evenings & weekends)*

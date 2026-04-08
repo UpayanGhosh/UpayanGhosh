@@ -1,9 +1,9 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/UpayanGhosh/UpayanGhosh/main/.github/assets/hero.svg" width="100%" alt="upayan@synapse — AI Systems Engineer" />
+  <img src="https://raw.githubusercontent.com/UpayanGhosh/UpayanGhosh/main/.github/assets/hero.svg" width="100%" alt="UpayanGhosh — AI Systems Engineer" />
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Kalam&weight=700&size=28&pause=1200&color=9F6BF5&center=true&vCenter=true&multiline=false&random=false&width=700&height=55&lines=hey+there+%F0%9F%91%8B+welcome+to+my+corner+of+GitHub;I+build+AI+that+remembers+you+%E2%9C%A8;currently+vibing+with+LanceDB+%26+Claude+Code;feel+free+to+poke+around+%F0%9F%92%9C" alt="Handwritten greeting" />
+  <img src="https://readme-typing-svg.demolab.com?font=Caveat&weight=700&size=34&pause=1200&color=FFE066&center=true&vCenter=true&multiline=false&random=false&width=800&height=65&lines=hey+there+%F0%9F%91%8B+welcome+to+my+corner+of+GitHub;I+build+AI+that+remembers+you+%E2%9C%A8;currently+vibing+with+LanceDB+%26+Claude+Code;feel+free+to+poke+around+%F0%9F%92%9C" alt="Handwritten greeting" />
 </div>
 
 <br/>
@@ -36,7 +36,7 @@
 
 <div align="center">
   <a href="https://github.com/UpayanGhosh">
-    <img src="https://raw.githubusercontent.com/UpayanGhosh/UpayanGhosh/main/.github/assets/card-about.svg" width="100%" alt="About Upayan Ghosh" />
+    <img src="https://raw.githubusercontent.com/UpayanGhosh/UpayanGhosh/main/.github/assets/card-about.svg" width="100%" alt="About UpayanGhosh" />
   </a>
 </div>
 
@@ -82,6 +82,10 @@
 ## 📊 Stats & Activity
 
 <div align="center">
+  <img src="https://raw.githubusercontent.com/UpayanGhosh/UpayanGhosh/main/.github/assets/card-stats-header.svg" width="100%" alt="Stats & Activity header" />
+</div>
+
+<div align="center">
   <img src="https://streak-stats.demolab.com?user=UpayanGhosh&theme=tokyonight-duo&hide_border=true" />
 </div>
 
@@ -109,7 +113,7 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/UpayanGhosh/UpayanGhosh/output/github-contribution-grid-snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/UpayanGhosh/UpayanGhosh/output/github-contribution-grid-snake.svg" />
-    <img alt="contribution snake" src="https://raw.githubusercontent.com/UpayanGhosh/UpayanGhosh/output/github-contribution-grid-snake-dark.svg" />
+    <img alt="contribution snake — synced with live contribution graph" src="https://raw.githubusercontent.com/UpayanGhosh/UpayanGhosh/output/github-contribution-grid-snake-dark.svg" />
   </picture>
 </div>
 
@@ -117,60 +121,25 @@
 
 ## 🛠 Tech Stack
 
-```
-upayan@synapse:~$ ls -la ~/skills
-
-AI & SYSTEMS  ──────────────────────────────────────────────────────
-  python       fastapi      fastembed    lancedb      litellm
-  flashrank    docker       bash         linux        claude-api
-
-DAY JOB  ───────────────────────────────────────────────────────────
-  csharp       dotnet       angular      typescript   javascript
-  sql-server   firebase     bootstrap    git
-
-ALSO KNOW  ─────────────────────────────────────────────────────────
-  c / c++      dart         flutter      react
-```
-
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=python,fastapi,docker,bash,cs,dotnet,angular,ts,git,dart,flutter,react&theme=dark" />
+  <img src="https://raw.githubusercontent.com/UpayanGhosh/UpayanGhosh/main/.github/assets/card-stack.svg" width="100%" alt="Tech Stack" />
 </div>
 
 ---
 
 ## 📐 What I Care About
 
-```
-  →  Systems that remember  ·  not just respond
-  →  AI that adapts to you  ·  not the other way around
-  →  Privacy-first          ·  your data stays on your machine
-  →  Constraint-driven      ·  make it work on consumer hardware
-  →  Use every tool         ·  including AI  ·  to build better
-```
+<div align="center">
+  <img src="https://raw.githubusercontent.com/UpayanGhosh/UpayanGhosh/main/.github/assets/card-philosophy.svg" width="100%" alt="What I Care About" />
+</div>
 
 ---
 
 ## 📬 Let's Talk
 
-```
-Connecting to upayan@synapse...
-
-  → LinkedIn  :  linkedin.com/in/upayan-ghosh-shorty
-  → Email     :  upayan1231@gmail.com
-  → X/Twitter :  @UpayanGhosh0_0
-  → npm       :  npmjs.com/package/claude-jarvis
-
-Open to: freelance AI projects · RAG pipelines · chatbots
-         multi-agent architectures · building in public collabs
-```
-
 <div align="center">
   <a href="https://www.linkedin.com/in/upayan-ghosh-shorty/">
-    <img src="https://img.shields.io/badge/LinkedIn%20DM-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  &nbsp;
-  <a href="mailto:upayan1231@gmail.com">
-    <img src="https://img.shields.io/badge/Send%20Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
+    <img src="https://raw.githubusercontent.com/UpayanGhosh/UpayanGhosh/main/.github/assets/card-contact.svg" width="100%" alt="Let's Talk" />
   </a>
 </div>
 

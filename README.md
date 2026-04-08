@@ -117,29 +117,43 @@ npm install -g claude-jarvis
 ## 📊 Stats & Activity
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/UpayanGhosh/UpayanGhosh/main/.github/assets/card-stats-header.svg" width="100%" alt="Stats & Activity header" />
-</div>
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=UpayanGhosh&theme=tokyonight-duo&hide_border=true" />
-</div>
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=UpayanGhosh&theme=tokyo-night&hide_border=true&area=true&bg_color=0d1117&color=9F6BF5&line=6E40C9&point=c9b8ff&area_color=6E40C9&custom_title=push+history" width="100%" />
+  <img src="https://raw.githubusercontent.com/UpayanGhosh/UpayanGhosh/main/.github/assets/card-stats-header.svg" width="100%" alt="Stats and Activity header" />
 </div>
 
 <br/>
 
 <div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=UpayanGhosh&theme=tokyonight" width="99%" />
+  <img src="https://streak-stats.demolab.com?user=UpayanGhosh&theme=tokyonight-duo&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" alt="GitHub Streak" />
 </div>
 
+<br/>
+
 <div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=UpayanGhosh&theme=tokyonight" width="32%" />
-  &nbsp;
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=UpayanGhosh&theme=tokyonight" width="32%" />
-  &nbsp;
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=UpayanGhosh&theme=tokyonight" width="32%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=UpayanGhosh&theme=tokyo-night&hide_border=true&area=true&bg_color=0d1117&color=9F6BF5&line=6E40C9&point=c9b8ff&area_color=6E40C9&custom_title=Push%20History" width="100%" alt="Push History" />
+</div>
+
+<br/>
+
+<div align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=UpayanGhosh&theme=tokyonight" width="100%" alt="Profile Details" />
+</div>
+
+<br/>
+
+<div align="center">
+  <table>
+    <tr>
+      <td width="33%" align="center">
+        <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=UpayanGhosh&theme=tokyonight" width="100%" alt="Repos per Language" />
+      </td>
+      <td width="33%" align="center">
+        <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=UpayanGhosh&theme=tokyonight" width="100%" alt="Most Commit Language" />
+      </td>
+      <td width="33%" align="center">
+        <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=UpayanGhosh&theme=tokyonight" width="100%" alt="Stats" />
+      </td>
+    </tr>
+  </table>
 </div>
 
 <br/>
@@ -148,7 +162,7 @@ npm install -g claude-jarvis
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/UpayanGhosh/UpayanGhosh/output/github-contribution-grid-snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/UpayanGhosh/UpayanGhosh/output/github-contribution-grid-snake.svg" />
-    <img alt="contribution snake — synced with live contribution graph" src="https://raw.githubusercontent.com/UpayanGhosh/UpayanGhosh/output/github-contribution-grid-snake-dark.svg" />
+    <img alt="Contribution snake — synced with live contribution graph" src="https://raw.githubusercontent.com/UpayanGhosh/UpayanGhosh/output/github-contribution-grid-snake-dark.svg" width="100%" />
   </picture>
 </div>
 

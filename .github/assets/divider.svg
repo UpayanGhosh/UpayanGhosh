@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 40" width="1200" height="40" role="img" aria-label="divider">
+  <defs>
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6E40C9" stop-opacity="0"/>
+      <stop offset="20%" stop-color="#6E40C9" stop-opacity="1"/>
+      <stop offset="50%" stop-color="#9F6BF5" stop-opacity="1"/>
+      <stop offset="80%" stop-color="#6E40C9" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#6E40C9" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="d-glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style><![CDATA[
+    @keyframes flow {
+      0% { stroke-dashoffset: 0; }
+      100% { stroke-dashoffset: -80; }
+    }
+    .line {
+      stroke: url(#lineGrad);
+      stroke-width: 2;
+      stroke-dasharray: 4 6;
+      animation: flow 3s linear infinite;
+      fill: none;
+    }
+
+    @keyframes pulse-dot {
+      0%, 100% { r: 3; opacity: 0.6; }
+      50% { r: 5; opacity: 1; }
+    }
+    .dot {
+      fill: #9F6BF5;
+      animation: pulse-dot 2s ease-in-out infinite;
+      filter: url(#d-glow);
+    }
+    .dot2 { animation-delay: 0.66s; }
+    .dot3 { animation-delay: 1.33s; }
+  ]]></style>
+
+  <line class="line" x1="0" y1="20" x2="1200" y2="20"/>
+  <circle class="dot"  cx="580" cy="20" r="3"/>
+  <circle class="dot dot2" cx="600" cy="20" r="3"/>
+  <circle class="dot dot3" cx="620" cy="20" r="3"/>
+</svg>

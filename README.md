@@ -174,6 +174,30 @@ npm install -g claude-jarvis
   <img src="https://raw.githubusercontent.com/UpayanGhosh/UpayanGhosh/main/.github/assets/card-stack.svg" width="100%" alt="Tech Stack" />
 </div>
 
+<br/>
+
+<div align="center">
+
+**AI / Systems** · *evenings &amp; weekends*
+
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=python,fastapi,docker,bash,linux,sqlite,git&theme=dark" alt="AI/Systems stack" />
+</a>
+
+**Day Job** · *Accenture stack*
+
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=cs,dotnet,angular,ts,js,html,css&theme=dark" alt="Day job stack" />
+</a>
+
+**Also Worked With** · *past projects*
+
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=c,cpp,dart,flutter,react,firebase&theme=dark" alt="Past projects stack" />
+</a>
+
+</div>
+
 ---
 
 ## 📐 What I Care About

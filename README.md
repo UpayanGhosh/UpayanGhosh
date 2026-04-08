@@ -55,14 +55,14 @@ I build systems that *remember*, *route intelligently*, and *explain themselves*
         <img src="https://img.shields.io/github/stars/UpayanGhosh/Synapse-OSS?style=flat-square&color=6E40C9&logo=github&logoColor=white" />
         <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
         <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
-        <img src="https://img.shields.io/badge/Ollama-ffffff?style=flat-square&logoColor=black" />
-        <img src="https://img.shields.io/badge/Qdrant-DC244C?style=flat-square&logoColor=white" />
+        <img src="https://img.shields.io/badge/FastEmbed-6E40C9?style=flat-square&logoColor=white" />
+        <img src="https://img.shields.io/badge/LanceDB-00B4D8?style=flat-square&logoColor=white" />
         <br/><br/>
         <p align="left">Self-hosted AI assistant with <strong>hybrid memory</strong>, evolving personality, and multi-channel support. WhatsApp · Telegram · Discord · Slack. Sensitive messages never leave your machine.</p>
         <p align="left">
-          <code>Knowledge graph + vector search · &lt;350ms retrieval</code><br/>
+          <code>Knowledge graph + LanceDB vector search · &lt;350ms retrieval</code><br/>
           <code>Personality evolves every 50 messages</code><br/>
-          <code>Private routing via local Ollama</code>
+          <code>FastEmbed for local, privacy-first embeddings</code>
         </p>
       </td>
       <td width="2%"></td>
@@ -112,13 +112,13 @@ I build systems that *remember*, *route intelligently*, and *explain themselves*
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=UpayanGhosh&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=9F6BF5&icon_color=9F6BF5&text_color=c9d1d9&include_all_commits=true&count_private=true&rank_icon=github" height="170" />
+  <img src="https://github-readme-stats.vercel.app/api?username=UpayanGhosh&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github" height="170" />
   &nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=UpayanGhosh&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=9F6BF5&text_color=c9d1d9&langs_count=7" height="170" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=UpayanGhosh&layout=compact&theme=tokyonight&hide_border=true&langs_count=7" height="170" />
 </div>
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=UpayanGhosh&theme=tokyonight-duo&hide_border=true&background=0d1117&stroke=6E40C9&ring=9F6BF5&fire=F1E05A&currStreakLabel=9F6BF5&sideLabels=9F6BF5&dates=8b949e" />
+  <img src="https://streak-stats.demolab.com?user=UpayanGhosh&theme=tokyonight-duo&hide_border=true" />
 </div>
 
 <div align="center">
@@ -167,7 +167,7 @@ I build systems that *remember*, *route intelligently*, and *explain themselves*
   <img src="https://skillicons.dev/icons?i=python,fastapi,docker,bash,linux,sqlite&theme=dark" />
 </div>
 <div align="center">
-  <sub>+ Qdrant &nbsp;·&nbsp; Ollama &nbsp;·&nbsp; LiteLLM &nbsp;·&nbsp; FlashRank &nbsp;·&nbsp; sentence-transformers &nbsp;·&nbsp; Claude API &nbsp;·&nbsp; OpenAI SDK</sub>
+  <sub>+ FastEmbed &nbsp;·&nbsp; LanceDB &nbsp;·&nbsp; LiteLLM &nbsp;·&nbsp; FlashRank &nbsp;·&nbsp; sentence-transformers &nbsp;·&nbsp; Claude API &nbsp;·&nbsp; OpenAI SDK</sub>
 </div>
 
 <br/>

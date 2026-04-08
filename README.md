@@ -34,39 +34,38 @@
 
 ## 👤 About
 
-```
-╔══════════════════════════════════════════════════════════════════╗
-║  upayan@synapse:~                                               ║
-╠══════════════════════════════════════════════════════════════════╣
-║  name     →  Upayan Ghosh                                       ║
-║  location →  Kolkata, India                                     ║
-║  day job  →  Application Dev Analyst @ Accenture               ║
-║  nights   →  Building open-source AI systems                    ║
-║  focus    →  Systems that remember, route, and explain          ║
-║  motto    →  Use every tool available. Ship what matters.       ║
-╚══════════════════════════════════════════════════════════════════╝
-```
+<div align="center">
+  <a href="https://github.com/UpayanGhosh">
+    <img src="https://raw.githubusercontent.com/UpayanGhosh/UpayanGhosh/main/.github/assets/card-about.svg" width="100%" alt="About Upayan Ghosh" />
+  </a>
+</div>
 
 ---
 
 ## ⚡ Featured Projects
 
-```diff
-+ [🧠 Synapse-OSS]   github.com/UpayanGhosh/Synapse-OSS
-+    Self-hosted AI · hybrid memory · evolving personality
-+    WhatsApp · Telegram · Discord · Slack · privacy-first
-+    FastEmbed + LanceDB · <350ms retrieval · runs locally
-+
-+ [📖 tldr-skill]    github.com/UpayanGhosh/tldr-skill
-+    Any codebase → interactive explainer website · 2 words · zero config
-+    Cytoscape.js dependency graph · D3.js mind map · full-text search
-+    No external deps · dark mode · mobile-ready
-+
-+ [⚡ claude-jarvis]  github.com/UpayanGhosh/claude-jarvis
-+    The only Claude Code skill you need
-+    Universal intent router → picks the right skill automatically
-+    npm install -g claude-jarvis  →  /jarvis <anything>
-```
+<div align="center">
+  <table>
+    <tr>
+      <td width="50%">
+        <a href="https://github.com/UpayanGhosh/Synapse-OSS">
+          <img src="https://raw.githubusercontent.com/UpayanGhosh/UpayanGhosh/main/.github/assets/card-synapse.svg" width="100%" alt="Synapse-OSS" />
+        </a>
+      </td>
+      <td width="50%">
+        <a href="https://github.com/UpayanGhosh/tldr-skill">
+          <img src="https://raw.githubusercontent.com/UpayanGhosh/UpayanGhosh/main/.github/assets/card-tldr.svg" width="100%" alt="tldr-skill" />
+        </a>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<div align="center">
+  <a href="https://github.com/UpayanGhosh/claude-jarvis">
+    <img src="https://raw.githubusercontent.com/UpayanGhosh/UpayanGhosh/main/.github/assets/card-jarvis.svg" width="100%" alt="claude-jarvis" />
+  </a>
+</div>
 
 <div align="center">
   <img src="https://img.shields.io/github/stars/UpayanGhosh/Synapse-OSS?style=flat-square&color=6E40C9&logo=github&logoColor=white&label=Synapse-OSS" />

@@ -153,6 +153,34 @@
       opacity: 0;
       animation: scan 5s ease-in-out infinite;
     }
+
+    /* Handwritten accent text */
+    @keyframes wiggle {
+      0%, 100% { transform: rotate(-8deg); }
+      50% { transform: rotate(-6deg); }
+    }
+    .handwritten {
+      font-family: 'Bradley Hand', 'Segoe Script', 'Chalkboard SE',
+                   'Comic Sans MS', 'Lucida Handwriting', cursive;
+      font-size: 22px;
+      font-weight: 700;
+      fill: #FFE066;
+      transform-origin: center;
+      animation: wiggle 3s ease-in-out infinite;
+    }
+
+    @keyframes draw {
+      to { stroke-dashoffset: 0; }
+    }
+    .arrow {
+      fill: none;
+      stroke: #FFE066;
+      stroke-width: 2.5;
+      stroke-linecap: round;
+      stroke-dasharray: 120;
+      stroke-dashoffset: 120;
+      animation: draw 2s ease-out 0.5s forwards, draw 2s ease-out infinite 6s;
+    }
   ]]></style>
 
   <!-- Background -->
@@ -219,4 +247,15 @@
 
   <!-- Scanning line effect -->
   <rect class="scanline" x="0" y="0" width="1200" height="2"/>
+
+  <!-- Handwritten accent "that's me!" -->
+  <g transform="translate(860, 100)">
+    <text class="handwritten" x="0" y="0">that's me! ↓</text>
+    <path class="arrow" d="M 20 10 Q 10 35 -50 50" />
+  </g>
+
+  <!-- Handwritten accent on left "say hi 👋" -->
+  <g transform="translate(220, 250) rotate(-5)">
+    <text class="handwritten" x="0" y="0" style="animation-delay: 1s;">← say hi!</text>
+  </g>
 </svg>

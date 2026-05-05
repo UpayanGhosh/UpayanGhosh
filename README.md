@@ -1,217 +1,81 @@
-<div align="center">
-  <img src="https://raw.githubusercontent.com/UpayanGhosh/UpayanGhosh/main/.github/assets/hero.svg" width="100%" alt="UpayanGhosh — AI Systems Engineer" />
-</div>
 
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=20&pause=1500&color=9F6BF5&center=true&vCenter=true&multiline=false&random=false&width=800&height=45&lines=Building+AI+systems+that+remember%2C+route%2C+and+explain+themselves;Application+Dev+Analyst+%40+Accenture+%E2%80%94+OSS+builder+at+night;Multi-agent+systems+%7C+RAG+%7C+hybrid+memory+%7C+privacy-first;Currently+shipping+Synapse-OSS%2C+tldr-skill%2C+and+claude-jarvis" alt="Professional tagline" />
-</div>
+# Upayan Ghosh
 
-<br/>
+**AI systems engineer building agentic tools, retrieval systems, and developer workflows.**
 
-<div align="center">
-  <a href="https://www.linkedin.com/in/upayan-ghosh-shorty/">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  &nbsp;
-  <a href="mailto:upayan1231@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-  &nbsp;
-  <a href="https://twitter.com/UpayanGhosh0_0">
-    <img src="https://img.shields.io/badge/X%20%2F%20Twitter-000000?style=for-the-badge&logo=x&logoColor=white" />
-  </a>
-  &nbsp;
-  <a href="https://www.npmjs.com/package/claude-jarvis">
-    <img src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white" />
-  </a>
-  &nbsp;
-  <img src="https://komarev.com/ghpvc/?username=UpayanGhosh&style=for-the-badge&color=6E40C9&label=VISITORS" />
-</div>
+I work at the intersection of application engineering and applied AI: systems that can understand a task, route it to the right tools, use memory responsibly, and explain what happened well enough for another engineer to trust it.
 
-<br/>
+Currently I work as an Application Development Analyst at Accenture, and outside work I build open-source AI tooling around local-first assistants, codebase intelligence, and agent orchestration.
+
+[GitHub](https://github.com/UpayanGhosh) · [LinkedIn](https://www.linkedin.com/in/upayan-ghosh-shorty/) · [X](https://twitter.com/UpayanGhosh0_0) · [npm](https://www.npmjs.com/package/claude-jarvis)
 
 ---
 
-## 👤 About
+## Focus Areas
 
-<div align="center">
-  <a href="https://github.com/UpayanGhosh">
-    <img src="https://raw.githubusercontent.com/UpayanGhosh/UpayanGhosh/main/.github/assets/card-about.svg" width="100%" alt="About UpayanGhosh" />
-  </a>
-</div>
+**Agentic engineering**  
+Designing tool-using systems that can plan, route, recover, and hand work back to humans with useful context.
 
----
+**Retrieval and memory**  
+Building RAG and hybrid-memory flows that separate durable knowledge from task-local context, with clear inspection points.
 
-## ⚡ Featured Projects
+**Developer experience**  
+Turning confusing codebases and workflows into explainable systems: readable commands, good defaults, sharp docs, and practical automation.
 
-### Synapse-OSS
+**Local-first AI**  
+Exploring self-hosted and privacy-aware AI workflows where sensitive context stays closer to the developer.
 
-<a href="https://github.com/UpayanGhosh/Synapse-OSS">
-  <img src="https://raw.githubusercontent.com/UpayanGhosh/UpayanGhosh/main/.github/assets/card-synapse.svg" width="100%" alt="Synapse-OSS — Self-hosted AI with hybrid memory" />
-</a>
+## Selected Projects
 
-<p align="center">
-  <a href="https://github.com/UpayanGhosh/Synapse-OSS">
-    <img src="https://img.shields.io/badge/View%20on%20GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="View on GitHub" />
-  </a>
-  &nbsp;
-  <a href="https://github.com/UpayanGhosh/Synapse-OSS/stargazers">
-    <img src="https://img.shields.io/github/stars/UpayanGhosh/Synapse-OSS?style=for-the-badge&color=6E40C9&logo=github&logoColor=white&label=Stars" alt="Stars" />
-  </a>
-  &nbsp;
-  <a href="https://github.com/UpayanGhosh/Synapse-OSS/issues">
-    <img src="https://img.shields.io/github/issues/UpayanGhosh/Synapse-OSS?style=for-the-badge&color=6E40C9&label=Issues" alt="Issues" />
-  </a>
-</p>
-
-### tldr-skill
-
-<a href="https://github.com/UpayanGhosh/tldr-skill">
-  <img src="https://raw.githubusercontent.com/UpayanGhosh/UpayanGhosh/main/.github/assets/card-tldr.svg" width="100%" alt="tldr-skill — Any codebase, explained interactively" />
-</a>
-
-<p align="center">
-  <a href="https://github.com/UpayanGhosh/tldr-skill">
-    <img src="https://img.shields.io/badge/View%20on%20GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="View on GitHub" />
-  </a>
-  &nbsp;
-  <a href="https://github.com/UpayanGhosh/tldr-skill/stargazers">
-    <img src="https://img.shields.io/github/stars/UpayanGhosh/tldr-skill?style=for-the-badge&color=3FB950&logo=github&logoColor=white&label=Stars" alt="Stars" />
-  </a>
-  &nbsp;
-  <a href="https://github.com/UpayanGhosh/tldr-skill/issues">
-    <img src="https://img.shields.io/github/issues/UpayanGhosh/tldr-skill?style=for-the-badge&color=3FB950&label=Issues" alt="Issues" />
-  </a>
-</p>
-
-### claude-jarvis
-
-<a href="https://github.com/UpayanGhosh/claude-jarvis">
-  <img src="https://raw.githubusercontent.com/UpayanGhosh/UpayanGhosh/main/.github/assets/card-jarvis.svg" width="100%" alt="claude-jarvis — Universal intent router for Claude Code" />
-</a>
-
-<p align="center">
-  <a href="https://github.com/UpayanGhosh/claude-jarvis">
-    <img src="https://img.shields.io/badge/View%20on%20GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="View on GitHub" />
-  </a>
-  &nbsp;
-  <a href="https://www.npmjs.com/package/claude-jarvis">
-    <img src="https://img.shields.io/badge/View%20on%20npm-CB3837?style=for-the-badge&logo=npm&logoColor=white" alt="View on npm" />
-  </a>
-  &nbsp;
-  <a href="https://www.npmjs.com/package/claude-jarvis">
-    <img src="https://img.shields.io/npm/v/claude-jarvis?style=for-the-badge&color=CB3837&logo=npm&logoColor=white&label=Version" alt="npm Version" />
-  </a>
-  &nbsp;
-  <a href="https://www.npmjs.com/package/claude-jarvis">
-    <img src="https://img.shields.io/npm/dm/claude-jarvis?style=for-the-badge&color=CB3837&logo=npm&logoColor=white&label=Downloads" alt="npm Downloads" />
-  </a>
-</p>
+| Project | Why it exists | Stack / Concepts |
+| --- | --- | --- |
+| [Synapse-OSS](https://github.com/UpayanGhosh/Synapse-OSS) | A self-hosted AI workspace built around hybrid memory, local control, and practical assistant workflows. | Python, local AI, memory systems, orchestration |
+| [tldr-skill](https://github.com/UpayanGhosh/tldr-skill) | A codebase explanation workflow for quickly understanding unfamiliar repositories. | Code intelligence, summarization, repo analysis |
+| [claude-jarvis](https://github.com/UpayanGhosh/claude-jarvis) | A universal intent router for Claude Code workflows, packaged for npm. | CLI tooling, routing, developer automation |
 
 ```bash
 npm install -g claude-jarvis
 ```
 
----
+## How I Build
 
-## 📊 Stats & Activity
+- I start from the user workflow, then work backward into architecture.
+- I prefer small, observable components over hidden magic.
+- I treat prompts, tools, memory, retrieval, and logs as one system, not separate features.
+- I write for the next engineer: clear setup, explicit tradeoffs, useful failure messages.
+- I care about AI systems that are measurable, debuggable, and maintainable after the demo is over.
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/UpayanGhosh/UpayanGhosh/main/.github/assets/card-stats-header.svg" width="100%" alt="Stats and Activity header" />
-</div>
+## Toolbox
 
-<br/>
+**AI / backend:** Python, FastAPI, RAG, agent orchestration, SQLite, Docker, Linux, Bash  
+**Application engineering:** C#, .NET, Angular, TypeScript, JavaScript, HTML, CSS  
+**Product prototyping:** React, Flutter, Firebase, CLI tools, npm packages, GitHub Actions  
+**Foundations:** C, C++, data structures, system design, debugging, documentation
 
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=UpayanGhosh&theme=tokyonight-duo&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" alt="GitHub Streak" />
-</div>
+## Current Questions
 
-<br/>
+I am especially interested in:
 
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=UpayanGhosh&theme=tokyo-night&hide_border=true&area=true&bg_color=0d1117&color=9F6BF5&line=6E40C9&point=c9b8ff&area_color=6E40C9&custom_title=Push%20History" width="100%" alt="Push History" />
-</div>
+- how assistants can build reliable mental models of large codebases;
+- how memory should expire, compact, and explain itself;
+- how agent routers can choose tools without becoming unpredictable;
+- how local-first AI can give developers useful power without unnecessary data exposure;
+- how AI coding tools can produce better handoffs, not just faster diffs.
 
-<br/>
+## GitHub Snapshot
 
-<div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=UpayanGhosh&theme=tokyonight" width="100%" alt="Profile Details" />
-</div>
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=UpayanGhosh&theme=github_dark" width="100%" alt="Upayan Ghosh GitHub contribution summary" />
+</p>
 
-<br/>
+## Open To
 
-<div align="center">
-  <table>
-    <tr>
-      <td width="33%" align="center">
-        <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=UpayanGhosh&theme=tokyonight" width="100%" alt="Repos per Language" />
-      </td>
-      <td width="33%" align="center">
-        <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=UpayanGhosh&theme=tokyonight" width="100%" alt="Most Commit Language" />
-      </td>
-      <td width="33%" align="center">
-        <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=UpayanGhosh&theme=tokyonight" width="100%" alt="Stats" />
-      </td>
-    </tr>
-  </table>
-</div>
+I enjoy conversations around AI engineering, developer tools, retrieval systems, agent design, local-first software, and practical automation.
 
-<br/>
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/UpayanGhosh/UpayanGhosh/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/UpayanGhosh/UpayanGhosh/output/github-contribution-grid-snake.svg" />
-    <img alt="Contribution snake — synced with live contribution graph" src="https://raw.githubusercontent.com/UpayanGhosh/UpayanGhosh/output/github-contribution-grid-snake-dark.svg" width="100%" />
-  </picture>
-</div>
+If you are building in that space, I would be glad to connect.
 
 ---
 
-## 🛠 Tech Stack
-
-<div align="center">
-
-**AI / Systems** · *evenings &amp; weekends*
-
-<a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=python,fastapi,docker,bash,linux,sqlite,git&theme=dark" alt="AI/Systems stack" />
-</a>
-
-**Day Job** · *Accenture stack*
-
-<a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=cs,dotnet,angular,ts,js,html,css&theme=dark" alt="Day job stack" />
-</a>
-
-**Also Worked With** · *past projects*
-
-<a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=c,cpp,dart,flutter,react,firebase&theme=dark" alt="Past projects stack" />
-</a>
-
-</div>
-
----
-
-## 📐 What I Care About
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/UpayanGhosh/UpayanGhosh/main/.github/assets/card-philosophy.svg" width="100%" alt="What I Care About" />
-</div>
-
----
-
-## 📬 Let's Talk
-
-<div align="center">
-  <a href="https://www.linkedin.com/in/upayan-ghosh-shorty/">
-    <img src="https://raw.githubusercontent.com/UpayanGhosh/UpayanGhosh/main/.github/assets/card-contact.svg" width="100%" alt="Let's Talk" />
-  </a>
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:6E40C9,30:3d1a78,70:1a1040,100:0d1117&height=120&section=footer" width="100%" />
-</div>
+<p align="center">
+  <strong>Useful AI is not just smart output. It is context, control, observability, and trust.</strong>
+</p>

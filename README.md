@@ -7,7 +7,7 @@
 
 I work at the intersection of application engineering and applied AI: systems that can understand a task, route it to the right tools, use memory responsibly, and explain what happened well enough for another engineer to trust it.
 
-Currently I work as an Application Development Analyst at Accenture, and outside work I build open-source AI tooling around local-first assistants, codebase intelligence, and agent orchestration.
+Currently I work as an Application Development Associate at Accenture, and outside work I build open-source AI tooling around local-first assistants, codebase intelligence, and agent orchestration.
 
 [![GitHub](https://img.shields.io/badge/GitHub-UpayanGhosh-181717?style=for-the-badge&logo=github)](https://github.com/UpayanGhosh)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Upayan%20Ghosh-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/upayan-ghosh-shorty/)

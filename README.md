@@ -8,8 +8,12 @@ I work at the intersection of application engineering and applied AI: systems th
 
 Currently I work as an Associate Software Engineer at Accenture, building LLM tooling over enterprise SQL Server data with the Claude API and MCP. Outside work I build open-source AI tooling around local-first assistants, codebase intelligence, and agent orchestration.
 
+[![Claude Certified Architect](https://img.shields.io/badge/Claude%20Certified%20Architect-Foundations%20%C2%B7%20Anthropic-D97757?style=for-the-badge&logo=anthropic&logoColor=white)](https://www.credly.com/badges/2d5c21ae-123e-4a1f-957b-e8018d60361e/public_url)
+
 [![GitHub](https://img.shields.io/badge/GitHub-UpayanGhosh-181717?style=for-the-badge&logo=github)](https://github.com/UpayanGhosh)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Upayan%20Ghosh-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/upayan-ghosh/)
+[![Medium](https://img.shields.io/badge/Medium-@upayan1231-000000?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@upayan1231)
+[![LeetCode](https://img.shields.io/badge/LeetCode-Shorty__here-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/Shorty_here/)
 [![X](https://img.shields.io/badge/X-@UpayanGhosh0__0-000000?style=for-the-badge&logo=x)](https://twitter.com/UpayanGhosh0_0)
 [![npm](https://img.shields.io/badge/npm-claude--jarvis-CB3837?style=for-the-badge&logo=npm)](https://www.npmjs.com/package/claude-jarvis)
 
@@ -22,6 +26,13 @@ Currently I work as an Associate Software Engineer at Accenture, building LLM to
 </div>
 
 ---
+
+## 🏅 Certifications
+
+| Credential | Issuer | Issued |
+| --- | --- | --- |
+| [**Claude Certified Architect, Foundations**](https://www.credly.com/badges/2d5c21ae-123e-4a1f-957b-e8018d60361e/public_url) | Anthropic | Aug 2026 |
+| **Reinvention with Agentic AI** | Accenture | Jan 2026 |
 
 ## 🧭 Focus Areas
 
@@ -72,6 +83,10 @@ npm install -g claude-jarvis
 - 📚 I write for the next engineer: clear setup, explicit tradeoffs, useful failure messages.
 - ✅ I care about AI systems that are measurable, debuggable, and maintainable after the demo is over.
 
+## ✍️ Writing
+
+I write about LLM internals, MCP and agent safety, memory systems, and local-first AI at [medium.com/@upayan1231](https://medium.com/@upayan1231).
+
 ## 🔬 Current Questions
 
 I am especially interested in:
@@ -92,7 +107,7 @@ I am especially interested in:
 
 **Available immediately** for backend and AI engineering roles: remote, or Kolkata / hybrid.
 
-I work on agentic systems, retrieval and memory, developer tooling, and local-first AI. Claude Certified Architect, Foundations (Anthropic).
+I work on agentic systems, retrieval and memory, developer tooling, and local-first AI.
 
 📫 **upayan1231@gmail.com** · [LinkedIn](https://www.linkedin.com/in/upayan-ghosh/)
 
